@@ -32,9 +32,11 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.read_time %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>{% endif %}
+    {% if post.authors %}<p class="archive__item-excerpt" itemprop="authors">{{ post.authors | markdownify | strip_html }}</p>{% endif %}
   </article>
+  <div class="archive__item-linklist">{% for link in post.links %}
+    <span class="archive__item-link">{{ link | markdownify }}</span>
+  {% endfor %}</div>
 </div>
