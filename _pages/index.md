@@ -1,15 +1,11 @@
 ---
-title: "Home"
+title: ""
 layout: splash
 permalink: /
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: unsplash-image-1.jpg
-  cta_label: "Download"
-  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  overlay_filter: "0.0"
+  overlay_image:
 feature_row:
   - image_path: unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -51,10 +47,11 @@ feature_row4:
     btn_class: "btn--inverse"
 ---
 
-{% include feature_row %}
-
+<!-- {% include feature_row %} -->
+<!--
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="center" %}
+ -->
