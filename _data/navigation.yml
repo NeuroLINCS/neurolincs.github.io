@@ -6,5 +6,8 @@ main:
   - title: "People"
     url: /people/
 
+  - title: "Technologies"
+    url: /technologies/
+
   - title: "Publications"
     url: /publications/

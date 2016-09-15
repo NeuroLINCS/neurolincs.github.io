@@ -1,0 +1,24 @@
+---
+layout: splash
+title: "Technologies"
+permalink: /technologies/
+author_profile: false
+---
+
+{% include base_path %}
+
+<div class="grid__wrapper">
+{% for technology in site.data.technologies %}
+  <div class="grid__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <img src="{{ technology.image | prepend: "/images/" | prepend: base_path }}" alt="">
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">{{ technology.name | markdownify | strip_html  }}</h2>
+      {% if technology.info %}<p class="archive__item-excerpt" itemprop="description">{{ technology.info | markdownify | strip_html }}</p>{% endif %}
+    </article>
+  </div>
+{% endfor %}
+</div>
+
+
