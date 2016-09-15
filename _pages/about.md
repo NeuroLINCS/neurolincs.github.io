@@ -3,9 +3,7 @@ title: "About"
 layout: single
 permalink: /about/
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.0"
-  overlay_image: banner.png
+  image: banner.png
 ---
 
 # Rationale
