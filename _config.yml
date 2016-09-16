@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "NeuroLINCS"
+title_image              : "logo.png"
 title_separator          : "-"
 name                     : "NeuroLINCS"
 description              : "An amazing website."
