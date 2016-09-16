@@ -22,7 +22,7 @@ Perturbations:
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 Transcriptomics:
-  - image_path: technologies/transcriptomics.png
+  - image_path: technologies/transcriptomics.jpg
     alt: "transcriptomics"
     title: "Transcriptomics"
     excerpt: "RNA-Seq is a deep sequencing approach to transcriptome profiling. Studies using this method will precisely measure the extent and complexity of transcriptional perturbations in iPSC derived motor neurons."

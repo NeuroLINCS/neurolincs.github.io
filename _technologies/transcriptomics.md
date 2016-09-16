@@ -4,5 +4,5 @@ layout: single
 author_profile: false
 share: false
 header:
-  image: technologies/transcriptomics.jpg
+  image: technologies/transcriptomics_large.jpg
 ---
