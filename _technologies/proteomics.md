@@ -2,6 +2,7 @@
 title: "Proteomics"
 layout: single
 author_profile: false
+share: false
 header:
-  image: proteomics.jpg
+  image: technologies/proteomics.jpg
 ---

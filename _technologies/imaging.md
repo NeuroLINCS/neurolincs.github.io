@@ -2,6 +2,7 @@
 title: "Robotic Imaging"
 layout: single
 author_profile: false
+share: false
 header:
-  image: imaging.jpg
+  image: technologies/imaging.jpg
 ---

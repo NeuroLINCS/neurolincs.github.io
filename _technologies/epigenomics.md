@@ -2,6 +2,7 @@
 title: "Epigenomics"
 layout: single
 author_profile: false
+share: false
 header:
-  image: epigenomics2_large.jpg
+  image: technologies/epigenomics2_large.jpg
 ---

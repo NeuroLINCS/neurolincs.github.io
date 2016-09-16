@@ -2,6 +2,7 @@
 title: "Induced Pluripotent Stem Cells (iPSC)"
 layout: single
 author_profile: false
+share: false
 header:
-  image: ipsc_large.jpg
+  image: technologies/ipsc_large.jpg
 ---

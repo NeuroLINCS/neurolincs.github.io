@@ -2,6 +2,7 @@
 title: "Perturbation Analysis"
 layout: single
 author_profile: false
+share: false
 header:
-  image: perturbations2_large.jpg
+  image: technologies/perturbations2_large.jpg
 ---

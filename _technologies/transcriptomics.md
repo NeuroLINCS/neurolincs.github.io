@@ -2,6 +2,7 @@
 title: "Transcriptomics"
 layout: single
 author_profile: false
+share: false
 header:
-  image: transcriptomics.jpg
+  image: technologies/transcriptomics.jpg
 ---
