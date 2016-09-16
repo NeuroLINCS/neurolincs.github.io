@@ -10,7 +10,7 @@ iPSC:
     alt: "ipsc"
     title: "Induced pluripotent stem cells (iPSCs)"
     excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers."
-    url: "/technologies/ipsc/"
+    url: "/technologies/iPSC/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 Perturbations:
