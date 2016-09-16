@@ -8,11 +8,11 @@
         <ul class="visible-links">
 
           {% if site.title_image %}
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">
+          <li class="masthead__menu-item"><a href="{{ base_path }}/">
             {% if site.title_image contains "://" %}
-              <img src="{{ site.title_image }}" alt="{{ site.title }}">
+              <img src="{{ site.title_image }}" alt="{{ site.title }}" class="masthead__title-image" />
             {% else %}
-              <img src="{{ site.title_image | prepend: "/images/" | prepend: base_path }}" class="" alt="{{ site.title }}">
+              <img src="{{ site.title_image | prepend: "/images/" | prepend: base_path }}" class="masthead__title-image" alt="{{ site.title }}" />
             {% endif %}
           </a></li>
           {% else %}
