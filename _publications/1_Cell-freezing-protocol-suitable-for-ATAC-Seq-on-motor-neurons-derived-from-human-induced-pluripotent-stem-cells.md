@@ -1,5 +1,6 @@
 ---
 title: "Cell freezing protocol suitable for ATAC-Seq on motor neurons derived from human induced pluripotent stem cells."
+excerpt: ""
 year: 2016
 author: Pamela Milani
 authors: "Pamela Milani, Renan Escalante-Chong, Brandon C. Shelley, Natasha L. Patel-Murray, Xiaofeng Xin, Miriam Adam, Berhan Mandefro, Dhruv Sareen, Clive N. Svendsen, Ernest Fraenkel"
