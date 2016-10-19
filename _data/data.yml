@@ -1,0 +1,55 @@
+
+
+
+
+# - Name:
+#   LINCS-ID:
+#   Cell-type:
+#   Disease:
+#   Assays:
+#   Filetype:
+#   Perturbation:
+
+# Example data gathered from http://dev3.ccs.miami.edu:8080/cells/
+
+- Name: CS77iSMA-n5
+  LINCS-ID: LSC-1012
+  Cell-type: iPSC
+
+- Name: CS83iSMA-n5
+  LINCS-ID: LSC-1011
+  Cell-type: iPSC
+
+- Name: CS32iSMA-n3
+  LINCS-ID: LSC-1009
+  Cell-type: iPSC
+
+- Name: CS52iALS-n6A
+  LINCS-ID: LSC-1008
+  Cell-type: iPSC
+
+- Name: CS30iALS-n1N
+  LINCS-ID: LSC-1007
+  Cell-type: iPSC
+
+- Name: CS29iALS-n1N
+  LINCS-ID: LSC-1006
+  Cell-type: iPSC
+
+- Name: CS28iALS-n2A
+  LINCS-ID: LSC-1005
+  Cell-type: iPSC
+
+- Name: CS25iCTR-18n2
+  LINCS-ID: LSC-1004
+  Cell-type: iPSC
+
+- Name: CS83iCTR-33n1
+  LINCS-ID: LSC-1003
+  Cell-type: iPSC
+
+- Name: CS14iCTR-n6
+  LINCS-ID: LSC-1002
+  Cell-type: iPSC
+
+
