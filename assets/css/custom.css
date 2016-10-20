@@ -1,14 +1,104 @@
 
 
-.custom__tech-image {
 
-	width: 25%;
-	float: left;
-
-}
 
 .custom__header-overlay-description {
 
+	position: absolute;
+	left: 50%;
+	top: 140px;
+	width: 40%;
+	color: white;
+
+}
+
+
+.custom__pane-one {
+
+	/*background-color: #9fc5e8;*/
+
+}
+
+.custom__patient {
+
+	position: relative;
+	left: 15%;
+	width: 15%;
+
+}
+
+.custom__pane-two {
+
+	/*background-color: #9fc5e8;*/
+
+}
+
+.custom__svg-one {
+
+	position: absolute;
+	z-index: 10;
+
+
+}
+
+.custom__centers {
+
+	position: relative;
+	top: 20vw;
+
+}
+
+.custom__approaches {
+
+	position: relative;
+	top: 35vw;
+
+}
+
+.custom__center-image {
+
+	width: 20%;
+	float: left;
 	position: relative;
 
+}
+
+.custom__approach-image {
+
+	width: 30%;
+	float: left;
+	margin-left: 10%;
+	position: relative;
+
+}
+
+.custom__center-name,
+.custom__approach-name {
+
+	position: absolute;
+	bottom: 20px;
+	margin-left: 10px;
+
+}
+
+
+.custom__center-expertise,
+.custom__approach-center {
+
+	position: absolute;
+	bottom: 0px;
+	margin-left: 10px;
+
+}
+
+.custom__center-name,
+.custom__center-expertise {
+
+	color: white;
+
+}
+
+
+.custom__pane-three {
+	height: 1000px;
 }
