@@ -5,10 +5,9 @@
 .custom__header-overlay-description {
 
 	position: absolute;
-	left: 50%;
-	top: 140px;
-	width: 40%;
-	color: white;
+	margin-left: 20px;
+	top: 70px;
+	width: 50%;
 
 }
 
@@ -30,6 +29,7 @@
 .custom__pane-two {
 
 	/*background-color: #9fc5e8;*/
+	height: 110vw;
 
 }
 
