@@ -38,35 +38,42 @@
 .custom__svg-one {
 	position: absolute;
 	z-index: 10;
+	width: 80%;
+	left: 10%;
 
 
 }
 
 .custom__centers {
 	position: relative;
-	top: 20vw;
+	top: 15vw;
+	left: 10%;
 
 }
 
 .custom__approaches {
 	position: relative;
-	top: 35vw;
+	top: 29vw;
 
 }
 
 .custom__center-image {
-	width: 20%;
+	width: 16%;
 	float: left;
 	position: relative;
 
 }
 
 .custom__approach-image {
-	width: 30%;
+	width: 25%;
 	float: left;
 	margin-left: 10%;
 	position: relative;
 
+}
+
+.custom__approach-image-first {
+	margin-left: 16% !important;
 }
 
 .custom__center-name,
