@@ -78,6 +78,7 @@
 	position: absolute;
 	bottom: 20px;
 	margin-left: 10px;
+	z-index: 20;
 
 }
 
@@ -88,16 +89,23 @@
 	position: absolute;
 	bottom: 0px;
 	margin-left: 10px;
+	z-index: 20;
 
 }
 
 .custom__center-name,
 .custom__center-expertise {
 
-	color: white;
+	color: white !important;
 
 }
 
+.custom__center-name:hover,
+.custom__center-expertise:hover {
+
+	text-decoration: underline;
+
+}
 
 .custom__pane-three {
 	height: 1000px;
