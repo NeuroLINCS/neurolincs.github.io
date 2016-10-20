@@ -3,9 +3,7 @@ title: "People"
 layout: splash
 permalink: /people/
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.0"
-  overlay_image: neurons.jpg
+    image: neurons.jpg
 
 Steve:
   - image_path: people/steve_finkbeiner.jpg
