@@ -2,7 +2,7 @@
 layout: single
 permalink: /about/
 header:
-  image: banner.png
+  image: neurons.jpg
 ---
 
 # Rationale

@@ -3,7 +3,7 @@ title: "Technologies"
 layout: splash
 permalink: /technologies/
 header:
-  image: banner.png
+  image: neurons.jpg
 
 iPSC:
   - image_path: technologies/ipsc.jpg

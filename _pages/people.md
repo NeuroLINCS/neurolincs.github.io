@@ -3,7 +3,7 @@ title: "People"
 layout: splash
 permalink: /people/
 header:
-    image: neurons.jpg
+    image: contact.jpg
 
 Steve:
   - image_path: people/steve_finkbeiner.jpg
