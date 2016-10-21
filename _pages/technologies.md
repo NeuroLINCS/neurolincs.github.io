@@ -31,7 +31,7 @@ Proteomics:
   - image_path: technologies/proteomics.jpg
     alt: "proteomics"
     title: "Proteomics"
-    excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers."
+    excerpt: "We perform SWATH-MS, a data-independent acquisition (DIA) method."
     url: "/technologies/proteomics/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
