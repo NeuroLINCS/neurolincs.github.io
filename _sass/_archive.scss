@@ -73,7 +73,7 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0em;
     border-bottom: none;
   }
 }
@@ -98,7 +98,7 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: 0 0 20px rgba(#000, 0.25);
   }
 
   .archive__item-title {

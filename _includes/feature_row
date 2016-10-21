@@ -16,6 +16,7 @@
       {% capture f_url %}{{ f.url | prepend: base_path }}{% endcapture %}
     {% endif %}
 
+    {% if f.url %}<a class="custom__link" href="{{ f_url }}">{% endif %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
@@ -41,12 +42,11 @@
             </div>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
+
         </div>
       </div>
     </div>
+  {% if f.url %}</a>{% endif %}
   {% endfor %}
 
 </div>
