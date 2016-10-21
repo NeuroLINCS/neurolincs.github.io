@@ -15,15 +15,15 @@
 
 .custom__cells {
 	position: relative;
-	top: 3vw;
-	left: 1%;
+	top: 2.5vw;
+	left: 13%;
 }
 
 .custom__image-cell {
 	position: relative;
-	width: 6.5%;
+	width: 5%;
 	float: left;
-	margin-left: 8%;
+	margin-left: 6%;
 }
 
 .custom__cells-name {
@@ -47,14 +47,14 @@
 .custom__svg-one {
 	position: absolute;
 	z-index: -10;
-	width: 80%;
-	left: 10%;
+	width: 60%;
+	left: 20%;
 }
 
 .custom__assays {
 	position: relative;
-	top: 10.6vw;
-	left: 10%;
+	top: 8vw;
+	left: 20%;
 	clear: both;
 	z-index: 10;
 }
@@ -62,12 +62,12 @@
 .custom__approaches {
 	clear: both;
 	position: relative;
-	top: 18vw;
-	left: 10%;
+	top: 12vw;
+	left: 20%;
 }
 
 .custom__assay-image {
-	width: 16%;
+	width: 12%;
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -88,13 +88,13 @@
 }
 
 .custom__approach-image {
-	width: 25%;
+	width: 20%;
 	float: left;
 	position: relative;
 }
 
 .custom__approach-image-second {
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 .custom__assay-expertise,
