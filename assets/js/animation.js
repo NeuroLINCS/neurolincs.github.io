@@ -53,9 +53,11 @@ $.getJSON("/data/metadata.json", function(json) {
 
   }
 
-  return chart(["#celltypes", celltypes, "Cell Types"])
-
-  // _([["#celltypes", celltypes, "Cell Types"], ["#diseases", diseases, "Diseases"], ["#assays", assays, "Assays"], ["#filetypes", filetypes, "File Types"], ["#perturbations", perturbations, "Perturbations"]]).map(chart)
+  chart(["#diseases", diseases, "Diseases"])
+  chart(["#celltypes", celltypes, "Cell Types"])
+  chart(["#assays", assays, "Assays"])
+  chart(["#filetypes", filetypes, "File Types"])
+  chart(["#perturbations", perturbations, "Perturbations"])
 
 
 });
