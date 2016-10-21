@@ -34,7 +34,7 @@
 
 .custom__pane-two {
 	/*background-color: #9fc5e8;*/
-	height: 80vw;
+	height: 75vw;
 }
 
 .custom__title {
@@ -85,7 +85,7 @@
 	position: absolute;
 	bottom: 10px;
 	margin-bottom: 0em;
-	padding-left:2px;
+	padding-left:5px;
 	z-index: 20;
 }
 
@@ -110,11 +110,14 @@
 }
 
 .custom__pane-three {
-	height: 1000px;
 	background-color: #f5f5f5;
 }
 
 .custom__pie-chart {
 	width: 300px;
+	height: 300px;
 	float: left;
+	position: static;
+	height: 800px;
+
 }
