@@ -35,6 +35,7 @@
 .custom__pane-two {
 	/*background-color: #9fc5e8;*/
 	height: 75vw;
+	overflow: hidden;
 }
 
 .custom__title {
