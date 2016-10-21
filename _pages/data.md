@@ -3,6 +3,10 @@ layout: single
 permalink: /data/
 ---
 
+The NeuroLINCS Center creates a wealth of cellular data that is patient-specific in the context of their baseline genetic perturbations and in the presence of other environmental stressors. Motor neurons (iMNs) are produced from induced pluripotent stem cell (iPSC) technologies and these cells are analyzed using epigenomics, transcriptomics, proteomics, and robotic imaging.
+
+Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition characterized by loss of motor neurons in the brain and spinal cord. Spinal muscular atrophy (SMA) is a recessively inherited pediatric neuromuscular disease characterized by degeneration of spinal motor neurons. The control (CTR) cells come from healthy individuals.
+
 
 ## iPSC (Exp 1) - ALS, SMA and Control (unaffected) subject-derived iPSC lines.
 
