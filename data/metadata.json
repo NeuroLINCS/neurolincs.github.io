@@ -1,0 +1,15 @@
+---
+layout: none
+---
+
+[{% for file in site.data.data %}
+	{
+		"Name": "{{ file.Name }}",
+		"LINCS-ID": "{{ file.LINCS-ID }}",
+		"Cell-type": "{{ file.Cell-type }}",
+		"Disease": "{{ file.Disease }}",
+		"Assays": "{{ file.Assays }}",
+		"Filetype": "{{ file.Filetype }}",
+		"Perturbation": "{{ file.Perturbation }}"
+	}{% if forloop.last == false %},{% endif %}
+{% endfor %}]

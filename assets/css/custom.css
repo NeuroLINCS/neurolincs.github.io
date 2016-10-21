@@ -1,42 +1,46 @@
 
 .custom__link {
-
 	color: #494e52 !important;
-
 }
 
 .custom__pane-one {
 	/*background-color: #9fc5e8;*/
-
 }
 
 .custom__image-patient {
 	position: absolute;
 	left: 15%;
 	width: 10%;
-
 }
 
-.custom__image-neuron {
+.custom__cells {
+	position: relative;
+	top: 3vw;
+	left: 1%;
+}
 
+.custom__image-cell {
+	position: relative;
+	width: 6.5%;
+	float: left;
+	margin-left: 8%;
+}
+
+.custom__cells-name {
 	position: absolute;
-	left: 35%;
-	width: 10%;
-
+	margin-top: -40px;
+	text-align: center;
 }
 
 .custom__pane-two {
 	/*background-color: #9fc5e8;*/
-	height: 110vw;
-
+	height: 80vw;
 }
 
-.custom__center-title {
-
+.custom__title {
 	text-align: center;
 	font-size: 72px;
 	font-weight: 100;
-
 }
 
 .custom__svg-one {
@@ -44,71 +48,64 @@
 	z-index: 10;
 	width: 80%;
 	left: 10%;
-
-
 }
 
-.custom__centers {
+.custom__assays {
 	position: relative;
-	top: 16vw;
+	top: 10.6vw;
 	left: 10%;
-
+	clear: both;
 }
 
 .custom__approaches {
+	clear: both;
 	position: relative;
-	top: 29vw;
-
+	top: 18vw;
+	left: 10%;
 }
 
-.custom__center-image {
+.custom__assay-image {
 	width: 16%;
 	float: left;
 	position: relative;
-
 }
 
 .custom__approach-image {
 	width: 25%;
 	float: left;
-	margin-left: 10%;
 	position: relative;
-
 }
 
-.custom__approach-image-first {
-	margin-left: 16% !important;
+.custom__approach-image-second {
+	margin-left: 15%;
 }
 
-.custom__center-name,
+.custom__assay-expertise,
 .custom__approach-name {
 	position: absolute;
-	bottom: 20px;
-	margin-left: 10px;
+	bottom: 10px;
+	margin-bottom: -0.5em;
 	z-index: 20;
-
 }
 
 
-.custom__center-expertise,
+.custom__assay-name,
 .custom__approach-center {
 	position: absolute;
 	bottom: 0px;
 	margin-left: 10px;
 	z-index: 20;
-
 }
 
-.custom__center-name,
-.custom__center-expertise {
+.custom__assay-name,
+.custom__assay-expertise {
 	color: white !important;
 
 }
 
-.custom__center-name:hover,
-.custom__center-expertise:hover {
+.custom__assay-name:hover,
+.custom__assay-expertise:hover {
 	text-decoration: underline;
-
 }
 
 .custom__pane-three {
