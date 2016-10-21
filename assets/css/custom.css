@@ -84,7 +84,8 @@
 .custom__approach-name {
 	position: absolute;
 	bottom: 10px;
-	margin-bottom: -0.5em;
+	margin-bottom: 0em;
+	padding-left:2px;
 	z-index: 20;
 }
 
