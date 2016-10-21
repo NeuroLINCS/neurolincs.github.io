@@ -45,7 +45,7 @@
 
 .custom__svg-one {
 	position: absolute;
-	z-index: 10;
+	z-index: -10;
 	width: 80%;
 	left: 10%;
 }
@@ -55,6 +55,7 @@
 	top: 10.6vw;
 	left: 10%;
 	clear: both;
+	z-index: 10;
 }
 
 .custom__approaches {
@@ -68,6 +69,21 @@
 	width: 16%;
 	float: left;
 	position: relative;
+	overflow: hidden;
+	opacity: 0.8;
+	box-shadow: none;
+   transition: opacity 0.1s;
+   -moz-transition: opacity 0.1s;
+   -webkit-transition: opacity 0.1s;
+   transition: box-shadow 0.1s;
+   -moz-transition: box-shadow 0.1s;
+   -webkit-transition: box-shadow 0.1s;
+}
+
+.custom__assay-image:hover {
+	opacity: 1.0;
+    text-decoration: underline !important;
+    box-shadow: inset 0 0 1em gold, 0 0 1em black;
 }
 
 .custom__approach-image {
@@ -88,7 +104,9 @@
 	padding-left:5px;
 	z-index: 20;
 }
-
+.custom__assay-expertise {
+	text-shadow: 1px 1px 3px black;
+}
 
 .custom__assay-name,
 .custom__approach-center {
@@ -104,13 +122,9 @@
 
 }
 
-.custom__assay-name:hover,
-.custom__assay-expertise:hover {
-	text-decoration: underline;
-}
-
 .custom__pane-three {
 	background-color: #f5f5f5;
+	height: 800px;
 }
 
 .custom__pie-chart {
@@ -118,6 +132,4 @@
 	height: 300px;
 	float: left;
 	position: static;
-	height: 800px;
-
 }

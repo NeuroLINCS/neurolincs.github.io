@@ -1,8 +1,6 @@
 ---
 layout: single
 permalink: /about/
-header:
-  image: neurons.jpg
 ---
 
 # Rationale
