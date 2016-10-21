@@ -4,6 +4,7 @@ layout: splash
 permalink: /people/
 header:
     image: people.jpg
+    show_all: true
 
 Steve:
   - image_path: people/steve_finkbeiner.jpg

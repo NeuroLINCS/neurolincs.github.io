@@ -37,10 +37,11 @@
 
 .custom__pane-two {
 	/*background-color: #9fc5e8;*/
-	height: 60vw;
+	height: 70vw;
 	overflow: hidden;
 }
 
+.page__title,
 .custom__title {
 	text-align: center;
 	font-size: 72px;
@@ -58,7 +59,7 @@
 
 .custom__assays {
 	position: relative;
-	top: 5.5vw;
+	top: 5.8vw;
 	left: 20%;
 	clear: both;
 	z-index: 10;
@@ -131,6 +132,14 @@
 	color: white !important;
 
 }
+
+.custom__svg-two {
+	z-index: -10;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 11vw;
+}
+
 
 .custom__pane-three {
 	background-color: #f5f5f5;
