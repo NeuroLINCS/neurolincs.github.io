@@ -21,9 +21,14 @@
 }
 
 .custom__cells:hover {
-	text-decoration: underline;
+	background-color: white;
+	opacity: 0.9;
 }
 
+.custom__cells:hover img,
+.custom__cells:hover h3 {
+	opacity: 0.1;
+}
 .custom__image-cell {
 	position: absolute;
 	width: 13%;
@@ -37,7 +42,7 @@
 
 .custom__pane-two {
 	/*background-color: #9fc5e8;*/
-	height: 70vw;
+	height: 75vw;
 	overflow: hidden;
 }
 
@@ -68,7 +73,7 @@
 .custom__approaches {
 	clear: both;
 	position: relative;
-	top: 11vw;
+	top: 11.5vw;
 	left: 20%;
 }
 
@@ -77,6 +82,8 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
+	border: 4px solid #222222;
+	border-right: 0px !important;
 }
 
 .custom__image-animation {
@@ -93,7 +100,7 @@
 .custom__image-animation:hover {
 	opacity: 1.0;
 	text-decoration: underline !important;
-	box-shadow: inset 0 0 1em gold, 0 0 1em black;
+	box-shadow: 0 0 1em black;
 }
 
 .custom__approach-image {
@@ -106,30 +113,25 @@
 	margin-left: 10%;
 }
 
-.custom__assay-expertise,
+.custom__assay-name,
 .custom__approach-name {
 	position: absolute;
-	bottom: 10px;
+	top: 10px;
+	width: 100%;
 	margin-bottom: 0em;
-	padding-left:5px;
+	padding-left: 5px;
 	z-index: 20;
 	font-size: 1.5vw;
 }
-.custom__assay-expertise {
+
+.custom__assay-name {
+	background-color: black;
 	text-shadow: 1px 1px 3px black;
-}
-
-.custom__assay-name,
-.custom__approach-center {
-	position: absolute;
-	bottom: 0px;
-	margin-left: 10px;
-	z-index: 20;
-}
-
-.custom__assay-name,
-.custom__assay-expertise {
 	color: white !important;
+}
+.custom__approach-name,
+.custom__cells-name {
+	color: black !important;
 
 }
 
@@ -140,15 +142,85 @@
 	margin-top: 11vw;
 }
 
-
+.custom__cell-signatures {
+	margin-left: 30%;
+	width: 30%;
+	height: 80px;
+	border-radius: 10px;
+	border: 2px solid #222222;
+}
+.custom__cell-signatures p {
+	font-weight: 200;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 8px;
+}
 .custom__pane-three {
-	background-color: #f5f5f5;
-	height: 800px;
+	background-color: #f8f8f8;
 }
 
 .custom__pie-chart {
 	width: 300px;
 	height: 300px;
-	float: left;
 	position: static;
 }
+
+.custom__approach-image .mask p {
+	top: 2vw !important;
+}
+.custom__cells .mask {
+	top: 0px !important;
+	padding: 0px !important;
+}
+
+/* Hover effect from tympanus/codrops: http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ */
+
+.view {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.view .mask, .view .content {
+    position: absolute;
+    overflow: hidden;
+    top: 1.5vw;
+    left: 0;
+    padding: 10px;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view p {
+    font-size: 1vw;
+    position: relative;
+}
+.view-tenth img {
+	transform: scaleY(1);
+	transition: all 0.2s ease-in-out;
+}
+.view-tenth .mask {
+    transition: all 0.2s linear;
+    opacity: 0;
+}
+.view-tenth p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.2s linear;
+}
+
+.view-tenth:hover img {
+	transform: scale(2);
+    opacity: 0.5;
+}
+.view-tenth:hover .mask {
+	opacity: 1;
+}
+.view-tenth:hover h2,
+.view-tenth:hover p {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
