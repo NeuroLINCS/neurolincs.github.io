@@ -40,7 +40,6 @@ Imaging:
     excerpt: "Automated robotic microscopy (RM) is used to identify and track live individual neurons in a high throughput and high content fashion over time. Automated image analysis is used to quantify intermediate changes in the physiology of a given cell and relate it to that cell's fate. From these measurements, mulivariate predictive dynamic models of cell fate are constructed that weigh co-variates based on the magnitude and nature of their predictive power. These models offer a signature of the cell's biology and a blueprint for rational therapeutic interventions."
 ---
 
-{% include feature_row id="iPSC" type="left" %}
 
 {% include feature_row id="Perturbations" type="left" %}
 
