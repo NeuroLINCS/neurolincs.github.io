@@ -5,7 +5,7 @@ permalink: /technologies/
 
 iPSC:
   - image_path: technologies/ipsc.jpg
-    alt: "ipscs"
+    alt: "ipsc"
     title: "Induced pluripotent stem cells (iPSCs)"
     excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers. Motor neurons (iMNs) are generated from human induced pluripotent stem cells (iPSCs) from patients with ALS and SMA and for unaffected controls. The iPSC core facility at Cedars-Sinai Medical Center (CSMC) has coordinated iPS cell expansion and differentiation protocols to ensure consistency across sites. We have developed standard operating procedures (SOPs), QC measures, and an improved protocol for the maintenance and differentiation of the cells."
     
@@ -40,7 +40,7 @@ Imaging:
     excerpt: "Automated robotic microscopy (RM) is used to identify and track live individual neurons in a high throughput and high content fashion over time. Automated image analysis is used to quantify intermediate changes in the physiology of a given cell and relate it to that cell's fate. From these measurements, mulivariate predictive dynamic models of cell fate are constructed that weigh co-variates based on the magnitude and nature of their predictive power. These models offer a signature of the cell's biology and a blueprint for rational therapeutic interventions."
 ---
 
-{% include feature_row id="ipscs" type="left" %}
+{% include feature_row id="ipsc" type="left" %}
 
 {% include feature_row id="Perturbations" type="left" %}
 
