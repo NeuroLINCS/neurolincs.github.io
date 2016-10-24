@@ -7,7 +7,7 @@ iPSC:
   - image_path: technologies/ipsc.jpg
     alt: "ipsc"
     title: "Induced pluripotent stem cells (iPSCs)"
-    excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers."
+    excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers. Motor neurons (iMNs) are generated from human induced pluripotent stem cells (iPSCs) from patients with ALS and SMA and for unaffected controls. The iPSC core facility at Cedars-Sinai Medical Center (CSMC) has coordinated iPS cell expansion and differentiation protocols to ensure consistency across sites. We have developed standard operating procedures (SOPs), QC measures, and an improved protocol for the maintenance and differentiation of the cells."
     url: "/technologies/iPSC/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
@@ -31,7 +31,7 @@ Proteomics:
   - image_path: technologies/proteomics.jpg
     alt: "proteomics"
     title: "Proteomics"
-    excerpt: "We perform SWATH-MS, a data-independent acquisition (DIA) method."
+    excerpt: "We perform SWATH-MS, a data-independent acquisition (DIA) method. DIA library generation, required for the primary method of analyzing DIA data, can be performed by several methods and there is no current standard in the field. We tested several methods and variables that go into generating an iPSC and iMN specific library, including data generated on multiple different instruments, various alterations within the instrument method itself and different programs that use the data to make the library. Sample specific libraries have been generated from aliquots of all iPSC and iMN samples respectively to generate an iPSC and iMN library."
     url: "/technologies/proteomics/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
@@ -39,7 +39,7 @@ Epigenomics:
   - image_path: technologies/epigenomics.jpg
     alt: "epigenomics"
     title: "Epigenomics"
-    excerpt: "ATACseq is a relatively new transposase-based, deep sequencing based epigenomic assay to map open chromatin regions and infer regulatory protein binding sites."
+    excerpt: "ATAC-Seq is a relatively new transposase-based, deep sequencing based epigenomic assay used to assess chromatin accessibility and identify functional regulatory sites involved in driving transcriptional changes associated with cell responses to perturbations. ATAC-Seq detects open chromatin sites and maps transcription factor binding events in regulatory elements genome-wide, without needing any prior information about which proteins are bound. ATAC-Seq signals allow for the delineation of fine-scale architectures of the regulatory framework by correlating occupancy patterns with other features, such as global gene induction programs."
     url: "/technologies/epigenomics/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
