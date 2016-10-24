@@ -45,12 +45,12 @@ Imaging:
 {% include feature_row id="Perturbations" type="left" %}
 
 {% include feature_row id="Transcriptomics" type="left" %}
-    [Processing Pipeline](https://martip03.u.hpc.mssm.edu/pdf/DToXS_SOP_CO-3.1_Generation_of_Transcript_Read_Counts.pdf)
+[Processing Pipeline](https://martip03.u.hpc.mssm.edu/pdf/DToXS_SOP_CO-3.1_Generation_of_Transcript_Read_Counts.pdf)
 
 {% include feature_row id="Proteomics" type="left" %}
 
 {% include feature_row id="Epigenomics" type="left" %}
-    [Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)
+[Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)
 
 {% include feature_row id="Imaging" type="left" %}
 
