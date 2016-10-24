@@ -1,5 +1,4 @@
 ---
-title: Data
 layout: single
 permalink: /data/
 ---
