@@ -42,6 +42,13 @@
             </div>
           {% endif %}
 
+          {% if f.links %}
+            <div class="archive__item-links">
+              <ul>{% for link in f.links %}
+                <li>{{ link | markdownify }}</li>
+              {% endfor %}</ul>
+            </div>
+          {% endif %}
 
         </div>
       </div>

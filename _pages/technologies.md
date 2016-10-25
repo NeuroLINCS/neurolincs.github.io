@@ -20,6 +20,8 @@ Transcriptomics:
     alt: "transcriptomics"
     title: "Transcriptomics"
     excerpt: "RNA-Seq is a deep sequencing approach to transcriptome profiling. Studies using this method will precisely measure the extent and complexity of transcriptional perturbations in iPSC derived motor neurons."
+    links:
+      - "[Processing Pipeline](https://martip03.u.hpc.mssm.edu/pdf/DToXS_SOP_CO-3.1_Generation_of_Transcript_Read_Counts.pdf)"
 
 Proteomics:
   - image_path: technologies/proteomics.jpg
@@ -31,7 +33,9 @@ Epigenomics:
   - image_path: technologies/epigenomics.jpg
     alt: "epigenomics"
     title: "Epigenomics"
-    excerpt: "ATAC-Seq is a relatively new transposase-based, deep sequencing based epigenomic assay used to assess chromatin accessibility and identify functional regulatory sites involved in driving transcriptional changes associated with cell responses to perturbations. ATAC-Seq detects open chromatin sites and maps transcription factor binding events in regulatory elements genome-wide, without needing any prior information about which proteins are bound. ATAC-Seq signals allow for the delineation of fine-scale architectures of the regulatory framework by correlating occupancy patterns with other features, such as global gene induction programs. [Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)"
+    excerpt: "ATAC-Seq is a relatively new transposase-based, deep sequencing based epigenomic assay used to assess chromatin accessibility and identify functional regulatory sites involved in driving transcriptional changes associated with cell responses to perturbations. ATAC-Seq detects open chromatin sites and maps transcription factor binding events in regulatory elements genome-wide, without needing any prior information about which proteins are bound. ATAC-Seq signals allow for the delineation of fine-scale architectures of the regulatory framework by correlating occupancy patterns with other features, such as global gene induction programs."
+    links:
+      - "[Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)"
 
 Imaging:
   - image_path: technologies/imaging.jpg
@@ -45,12 +49,10 @@ Imaging:
 {% include feature_row id="Perturbations" type="left" %}
 
 {% include feature_row id="Transcriptomics" type="left" %}
-[Processing Pipeline](https://martip03.u.hpc.mssm.edu/pdf/DToXS_SOP_CO-3.1_Generation_of_Transcript_Read_Counts.pdf)
 
 {% include feature_row id="Proteomics" type="left" %}
 
 {% include feature_row id="Epigenomics" type="left" %}
-[Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)
 
 {% include feature_row id="Imaging" type="left" %}
 
