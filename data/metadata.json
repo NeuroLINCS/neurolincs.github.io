@@ -1,5 +1,4 @@
 ---
-layout: none
 ---
 
 [{% for file in site.data.data %}

@@ -2,11 +2,12 @@
 layout: single
 permalink: /about/
 ---
-![image-right]({{ https://neurolincs.github.io/about/ }}{{ https://neurolincs.github.io/ }}/images/people_ABOUT.png){: .align-right}
+
+![image-right]({{ site.url }}{{ site.baseurl }}/images/people_ABOUT.png){: .align-right}
 
 # NeuroLINCS Center
 
-The NeuroLINCS Center is an NIH-funded collaborative effort between various research groups with expertise in iPSC technology, disease modeling, OMICS methods, and computational biology. The participating research groups are from the University of California- Irvine, Cedars Sinai, the Gladstone Institute, MIT, and Johns Hopkins University. Together, the NeuroLINCS data and signature generation center studies human brain cells derived from patient-derived iPS cells to understand the causes of neurological disease and to develop new therapies. 
+The NeuroLINCS Center is an NIH-funded collaborative effort between various research groups with expertise in iPSC technology, disease modeling, OMICS methods, and computational biology. The participating research groups are from the University of California- Irvine, Cedars Sinai, the Gladstone Institute, MIT, and Johns Hopkins University. Together, the NeuroLINCS data and signature generation center studies human brain cells derived from patient-derived iPS cells to understand the causes of neurological disease and to develop new therapies.
 
 # Rationale
 

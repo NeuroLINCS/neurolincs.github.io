@@ -8,7 +8,7 @@ iPSC:
     alt: "ipsc"
     title: "Induced pluripotent stem cells (iPSCs)"
     excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers. Motor neurons (iMNs) are generated from human induced pluripotent stem cells (iPSCs) from patients with ALS and SMA and for unaffected controls. The iPSC core facility at Cedars-Sinai Medical Center (CSMC) has coordinated iPS cell expansion and differentiation protocols to ensure consistency across sites. We have developed standard operating procedures (SOPs), QC measures, and an improved protocol for the maintenance and differentiation of the cells."
-    
+
 Perturbations:
   - image_path: technologies/perturbations.jpg
     alt: "perturbations"
@@ -31,8 +31,7 @@ Epigenomics:
   - image_path: technologies/epigenomics.jpg
     alt: "epigenomics"
     title: "Epigenomics"
-    excerpt: "ATAC-Seq is a relatively new transposase-based, deep sequencing based epigenomic assay used to assess chromatin accessibility and identify functional regulatory sites involved in driving transcriptional changes associated with cell responses to perturbations. ATAC-Seq detects open chromatin sites and maps transcription factor binding events in regulatory elements genome-wide, without needing any prior information about which proteins are bound. ATAC-Seq signals allow for the delineation of fine-scale architectures of the regulatory framework by correlating occupancy patterns with other features, such as global gene induction programs."
-    [Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)
+    excerpt: "ATAC-Seq is a relatively new transposase-based, deep sequencing based epigenomic assay used to assess chromatin accessibility and identify functional regulatory sites involved in driving transcriptional changes associated with cell responses to perturbations. ATAC-Seq detects open chromatin sites and maps transcription factor binding events in regulatory elements genome-wide, without needing any prior information about which proteins are bound. ATAC-Seq signals allow for the delineation of fine-scale architectures of the regulatory framework by correlating occupancy patterns with other features, such as global gene induction programs. [Protocol](http://lincsportal.ccs.miami.edu/dcic/api/download?path=Protocols&file=LDS-1354_Protocol.pdf)"
 
 Imaging:
   - image_path: technologies/imaging.jpg
