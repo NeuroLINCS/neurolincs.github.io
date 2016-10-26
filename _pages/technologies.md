@@ -32,7 +32,6 @@ Proteomics:
     title: "Proteomics"
     excerpt: "We perform SWATH-MS (**S**equential **W**indow **A**cquisition of all **TH**eoretical fragment ion spectra by **M**ass-**S**pectrometry), a data-independent acquisition (DIA) method. DIA library generation, required for the primary method of analyzing DIA data, can be performed by several methods and there is no current standard in the field. We tested several methods and variables that go into generating an iPSC and iMN specific library, including data generated on multiple different instruments, various alterations within the instrument method itself and different programs that use the data to make the library. Sample specific libraries have been generated from aliquots of all iPSC and iMN samples respectively to generate an iPSC and iMN library."
     links:
-      - "[Level 0 on Chorus](https://chorusproject.org/pages/index.html)"
 
 Epigenomics:
   - image_path: technologies/epigenomics.jpg
