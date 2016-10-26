@@ -84,6 +84,7 @@
 	width: 35%;
 	padding-right: 40px;
 	clear: both;
+	min-height: 300px;
 }
 .custom__pane-one .custom__description h2 {
 	font-weight: 300;
@@ -124,8 +125,8 @@
 }
 
 /* No longer in use: */
-
-/*.custom__pane-two {
+/*
+.custom__pane-two {
 	height: 75vw;
 	overflow: hidden;
 }
@@ -267,22 +268,21 @@
 	width: 300px;
 	height: 300px;
 	position: static;
-}
+}*/
 
-.custom__pane-two .custom__approach-image .mask p {
+.custom__approach-image .mask p {
 	top: 2vw !important;
 }
-.custom__pane-two .custom__cells .mask {
+.custom__cells .mask {
 	top: 0px !important;
 	padding: 0px !important;
-}*/
+}
 
 /* Hover effect from tympanus/codrops: http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ */
 
 .view {
     overflow: hidden;
     position: relative;
-    text-align: center;
 }
 .view .mask, .view .content {
     position: absolute;
