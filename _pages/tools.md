@@ -9,7 +9,7 @@ AChroMap:
     title: "AChroMap"
     excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNAseH) for a given set of differentially expressed genes."
     links:
-      -"[Use AchroMAP](http://www.neurolincs.org/shiny/achromap/)"
+      - "[Use AchroMAP](http://www.neurolincs.org/shiny/achromap/)"
       
 Omics:
   - image_path: omics_integrator.png
@@ -17,8 +17,8 @@ Omics:
     title: "Omics Integrator"
     excerpt: "Omics Integrator is package comprised of command-line tools designed to integrate high-throughput datasets such as gene expression, phospho-proteomic data and the results from genetic screens. As shown below, Garnet is used to identify transcription factors that give rise to gene expression changes using epigenetic data while Forest integrates these data or other data by finding connections in a protein interaction network."
     links:
-      -"[Use Omics Integrator](http://fraenkel-nsf.csbi.mit.edu/omicsintegrator/)"
-      -"[Read More at PLOS Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004879)"
+      - "[Use Omics Integrator](http://fraenkel-nsf.csbi.mit.edu/omicsintegrator/)"
+      - "[Read More at PLOS Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004879)"
 
 PIUMet:
   - image_path: transcriptomics.jpg
