@@ -5,7 +5,7 @@ year: 2016
 author: Ke Zhang
 authors: "Zhang K, Grima JC, Rothstein JD, Lloyd TE"
 links:
-  - "[Nucleus. 2016 Apr 25;7(2):132-7. doi: 10.1080/19491034.2016.1172152](http://www.tandfonline.com/doi/full/10.1080/19491034.2016.1172152)"
+  - "[Nucleus 2016 Apr 25;7(2):132-7. doi: 10.1080/19491034.2016.1172152](http://www.tandfonline.com/doi/full/10.1080/19491034.2016.1172152)"
 ---
 
 
