@@ -85,6 +85,11 @@
 	padding-right: 40px;
 	clear: both;
 }
+.custom__pane-one .custom__description h2 {
+	font-weight: 300;
+	font-size: 2vw;
+	margin: 0px;
+}
 
 .custom__pane-one .custom__perturbations {
 	width: 20%;
