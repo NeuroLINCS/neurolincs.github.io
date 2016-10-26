@@ -21,7 +21,7 @@ Omics:
       - "[Read More at PLOS Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004879)"
 
 PIUMet:
-  - image_path: transcriptomics.jpg
+  - image_path: PIUMet.jpg
     alt: "piumet"
     title: "PIUMet"
     excerpt: "PIUMet is a network-based algorithm for integrative analysis of untargeted metabolomic data. It leverages known metabolic reactions and protein-protein interactions to analyze the ambiguous assignment of metabolomics features and identify disease-associated pathways and hidden components."
