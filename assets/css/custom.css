@@ -34,6 +34,21 @@
 
 .custom__pane-one .custom__cells {
 	width: 35%;
+	opacity: 1.0;
+}
+.custom__pane-one .custom__cells-name {
+	text-align: center;
+}
+
+.custom__pane-one .custom__cells:hover img,
+.custom__pane-one .custom__cells:hover svg {
+	opacity: 0.2;
+	transition: all 0.2s ease-in-out;
+}
+
+.custom__pane-one .custom__cells:hover h3 {
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
 }
 
 .custom__pane-one .custom__cells .custom__image-cell {
@@ -68,6 +83,7 @@
 	padding-left: 5px;
 	z-index: 20;
 	font-size: 1.5vw;
+	text-align: center;
 }
 
 .custom__pane-one .custom__assay-name {
@@ -275,7 +291,6 @@
 }
 .custom__cells .mask {
 	top: 0px !important;
-	padding: 0px !important;
 }
 
 /* Hover effect from tympanus/codrops: http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ */

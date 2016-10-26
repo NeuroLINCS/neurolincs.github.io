@@ -16,8 +16,9 @@
       {% capture f_url %}{{ f.url | prepend: base_path }}{% endcapture %}
     {% endif %}
 
+
     {% if f.url %}<a class="custom__link" href="{{ f_url }}">{% endif %}
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}" id="{{ f.id }}">
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}" id="{{ f.alt }}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
