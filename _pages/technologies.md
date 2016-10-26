@@ -8,7 +8,10 @@ iPSC:
     alt: "ipsc"
     title: "Induced pluripotent stem cells (iPSCs)"
     excerpt: "iPSCs are generated using the latest techniques to reprogram, expand and characterize human iPS cells from human skin or blood tissues of healthy subjects and diseased patients. We then turn the iPS cells into specific cells of the human body, including components of the nervous system for use by researchers. Motor neurons (iMNs) are generated from human induced pluripotent stem cells (iPSCs) from patients with ALS and SMA and for unaffected controls. The iPSC core facility at Cedars-Sinai Medical Center (CSMC) has coordinated iPS cell expansion and differentiation protocols to ensure consistency across sites. We have developed standard operating procedures (SOPs), QC measures, and an improved protocol for the maintenance and differentiation of the cells."
-
+    links:
+      - "[iMPS Platedown Procedure](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure.pdf)"
+      - "[iMPS Platedown Procedure - Media Formulations](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure-Media-Formulations.pdf)"
+      
 Perturbations:
   - image_path: technologies/perturbations.jpg
     alt: "perturbations"
