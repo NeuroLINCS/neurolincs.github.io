@@ -167,7 +167,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   technologies:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 defaults:
