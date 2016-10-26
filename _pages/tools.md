@@ -4,7 +4,7 @@ layout: splash
 permalink: /tools/
 
 AChroMap:
-  - image_path: tools/achromap.jpg
+  - image_path: achromap.jpg
     alt: "achromap"
     title: "AChroMap"
     excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNAseH) for a given set of differentially expressed genes."
@@ -12,7 +12,7 @@ AChroMap:
       -"[Use AchroMAP](http://www.neurolincs.org/shiny/achromap/)"
       
 Omics:
-  - image_path: tools/omics_integrator.png
+  - image_path: omics_integrator.png
     alt: "omics"
     title: "Omics Integrator"
     excerpt: "Omics Integrator is package comprised of command-line tools designed to integrate high-throughput datasets such as gene expression, phospho-proteomic data and the results from genetic screens. As shown below, Garnet is used to identify transcription factors that give rise to gene expression changes using epigenetic data while Forest integrates these data or other data by finding connections in a protein interaction network."
@@ -21,7 +21,7 @@ Omics:
       -"[Read More at PLOS Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004879)"
 
 PIUMet:
-  - image_path: tools/transcriptomics.jpg
+  - image_path: transcriptomics.jpg
     alt: "piumet"
     title: "PIUMet"
     excerpt: "PIUMet is a network-based algorithm for integrative analysis of untargeted metabolomic data. It leverages known metabolic reactions and protein-protein interactions to analyze the ambiguous assignment of metabolomics features and identify disease-associated pathways and hidden components.  
