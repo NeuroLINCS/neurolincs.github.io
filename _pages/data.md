@@ -3,6 +3,20 @@ layout: single
 permalink: /data/
 ---
 
+<!-- <section class="custom__pane-three">
+
+	<h1 class="custom__title">Our Data</h1>
+
+	<p style="margin-left: 20px;">Waiting on a data manifest from Terri. The infrastructure to plot the data across cell types, diseases, assays, filetypes, and perturbations is set up, and I've built a plot with dummy data: </p>
+
+	<div class="custom__pie-chart"><canvas id="celltypes" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="diseases" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="assays" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div>
+
+</section> -->
+
 The NeuroLINCS Center creates a wealth of cellular data that is patient-specific in the context of their baseline genetic perturbations and in the presence of other environmental stressors. Motor neurons (iMNs) are produced from induced pluripotent stem cell (iPSC) technologies and these cells are analyzed using epigenomics, transcriptomics, proteomics, and robotic imaging.
 
 Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition characterized by loss of motor neurons in the brain and spinal cord. Spinal muscular atrophy (SMA) is a recessively inherited pediatric neuromuscular disease characterized by degeneration of spinal motor neurons. The control (CTR) cells come from healthy individuals.
