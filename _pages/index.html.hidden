@@ -1,0 +1,186 @@
+---
+title: "Welcome to NeuroLINCS"
+layout: index
+---
+
+<section class="custom__pane-one">
+
+
+</section>
+
+<section class="custom__pane-two">
+
+	<h1 class="custom__title">Our Approach</h1>
+
+	<svg id="svg1" class="custom__svg-one" version="1.1" viewBox="0.0 0.0 960.0 720.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<clipPath id="p.0">
+			<path d="m0 0l960.0 0l0 720.0l-960.0 0l0 -720.0z" clip-rule="nonzero"></path></clipPath>
+		<g clip-path="url(#p.0)">
+			<path data-start="0" data-duration="5" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m78.59843 66.71369c18.503937 0 27.755905 0.01574707 37.007874 0.03149414l13.007866 0.018737793" fill-rule="evenodd"></path>
+			<path data-start="5" data-duration="5" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m128.61067 73.37085l18.1559 -6.597275l-18.14888 -6.616581z" fill-rule="evenodd"></path>
+
+			<path data-start="15" data-duration="5" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m240.52493 66.71369c21.070862 0 31.606293 0.01574707 42.141724 0.03149414c5.2677307 0.007873535 10.535431 0.01574707 17.120087 0.021652222l1.0216675 6.637573E-4" fill-rule="evenodd"></path>
+			<path data-start="20" data-duration="5" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m300.80588 73.37443l18.154907 -6.599983l-18.149841 -6.6138725z" fill-rule="evenodd"></path>
+
+			<path data-start="30" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m387.8492 106.10425c0 20.637794 43.141724 30.956696 86.28345 41.27559c43.141754 10.318893 86.28348 20.637802 86.28348 41.27559" fill-rule="nonzero"></path>
+			<path data-start="30" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m387.8492 106.10425c0 20.637794 -4.7874146 30.956696 -9.574799 41.27559c-4.7874146 10.318893 -9.574799 20.637802 -9.574799 41.27559" fill-rule="nonzero"></path>
+			<path data-start="30" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m387.8492 106.10425c0 20.637794 -52.7323 30.956696 -105.46457 41.27559c-52.732285 10.318893 -105.46457 20.637802 -105.46457 41.27559" fill-rule="nonzero"></path>
+			<path data-start="30" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m387.65012 106.10425c0 21.29921 92.71652 31.948822 185.43307 42.59842c92.71649 10.649612 185.43304 21.29921 185.43304 42.598434" fill-rule="nonzero"></path>
+
+			<!-- <path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="butt" d="m176.94489 194.79108l0 182.86615" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linecap="butt" d="m170.33795 377.65723l6.6069336 18.152405l6.6069336 -18.152405z" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="butt" d="m370.79367 194.79108l0 182.86615" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linecap="butt" d="m364.18674 377.65723l6.6069336 18.152405l6.6069336 -18.152405z" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="butt" d="m559.37726 194.79108l0 182.86615" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linecap="butt" d="m552.7703 377.65723l6.6069336 18.152405l6.6069336 -18.152405z" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="butt" d="m758.5189 194.79108l0 182.86615" fill-rule="evenodd"></path>
+			<path data-start="50" data-duration="20" stroke="#ffd966" stroke-width="4.0" stroke-linecap="butt" d="m751.912 377.65723l6.6069336 18.152405l6.6069336 -18.152405z" fill-rule="evenodd"></path>
+ -->
+
+			<path data-start="80" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m176.94489 407.95505c0 16.811005 55.913376 25.216522 111.82678 33.62204c55.91336 8.405518 111.82675 16.811035 111.82675 33.62204" fill-rule="nonzero"></path>
+			<path data-start="80" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m370.1819 407.72687c0 16.771637 7.637787 25.15747 15.275574 33.543304c7.6378174 8.385834 15.275604 16.771637 15.275604 33.543304" fill-rule="nonzero"></path>
+			<path data-start="80" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m561.7484 407.5538c0 16.811035 -40.02362 25.216553 -80.04724 33.62204c-40.02362 8.405518 -80.04724 16.811035 -80.04724 33.62207" fill-rule="nonzero"></path>
+			<path data-start="80" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m759.7953 407.72687c0 16.771637 -89.53546 25.15747 -179.07086 33.543304c-89.53546 8.385834 -179.07089 16.771637 -179.07089 33.543304" fill-rule="nonzero"></path>
+
+			<path data-start="100" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m400.64902 472.20596c0 5.123352 38.59845 5.6798096 77.19687 10.246765c9.649597 1.1417236 19.299194 2.5341187 28.345703 4.185852c1.1308289 0.20645142 2.2522278 0.4169922 3.3630066 0.6315613c0.5553894 0.10726929 1.1081238 0.21557617 1.658081 0.32492065l0.6727295 0.13571167" fill-rule="evenodd"></path>
+			<path data-start="100" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m506.10144 499.6115l38.426025 4.01062l-26.858032 -27.772095z" fill-rule="evenodd"></path>
+			<path data-start="100" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m400.64902 472.20596c0 5.123352 -42.881866 5.6798096 -85.763794 10.246765c-10.720459 1.1417236 -21.440948 2.5341187 -31.491394 4.185852c-2.5126038 0.41293335 -4.9833374 0.84207153 -7.4017334 1.2875671c-0.60458374 0.11138916 -1.2059021 0.22375488 -1.8038025 0.33718872l-1.5176697 0.2922058" fill-rule="evenodd"></path>
+			<path data-start="100" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m267.11368 476.56693l-27.381454 27.256165l38.495346 -3.2789612z" fill-rule="evenodd"></path>
+
+			<path data-start="130" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m471.9382 592.0003c-38.474182 0 -57.9877 0.1338501 -76.94833 0.2677002c-4.740143 0.033447266 -9.44574 0.06695557 -14.421722 0.09832764c-2.487915 0.015625 -5.0434875 0.030822754 -7.7047424 0.04522705l-4.610382 0.022399902" fill-rule="evenodd"></path>
+			<path data-start="130" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m368.225 579.2201l-36.276672 13.2908325l36.332703 13.136841z" fill-rule="evenodd"></path>
+			<path data-start="130" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m320.21964 624.5357c37.921265 0 56.881897 0.01574707 75.84253 0.03149414l27.84253 0.019592285" fill-rule="evenodd"></path>
+			<path data-start="130" data-duration="20" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m423.9014 637.80066l36.308075 -13.204834l-36.301483 -13.2229z" fill-rule="evenodd"></path>
+
+			<path data-start="150" data-duration="10" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m758.5177 631.9373c0 -6.4213867 46.362244 15.149353 92.72443 -12.842773c23.181091 -13.996094 46.362183 -40.382874 63.748047 -76.46399c8.692871 -18.040588 15.937012 -38.50476 21.007874 -61.05551c1.2677002 -5.637665 2.3995972 -11.405762 3.3843384 -17.299011c0.24621582 -1.4732971 0.4831543 -2.9544373 0.7108154 -4.443268c0.11383057 -0.7444153 0.22521973 -1.4908142 0.3343506 -2.2391052c0.05456543 -0.37417603 0.10852051 -0.7487488 0.16186523 -1.1238708l0.081848145 -0.58273315" fill-rule="evenodd"></path>
+			<path data-start="150" data-duration="10" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m953.854 456.7942l-10.690369 -37.12628l-15.675049 35.31198z" fill-rule="evenodd"></path>
+
+			<!-- <path data-start="160" data-duration="10" stroke="#ffd966" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="butt" d="m943.95276 399.81723l0 -183.81102" fill-rule="evenodd"></path>
+			<path data-start="160" data-duration="10" stroke="#ffd966" stroke-width="4.0" stroke-linecap="butt" d="m950.5597 216.00621l-6.6069336 -18.15239l-6.6069336 18.15239z" fill-rule="evenodd"></path>
+ -->
+			<path data-start="170" data-duration="30" stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m944.9055 184.67746c-18.526733 0 21.694458 -29.511826 -37.05359 -59.023636c-29.373962 -14.755913 -83.490295 -29.511818 -157.32135 -40.578743c-36.915405 -5.5334625 -78.75964 -10.144684 -124.90399 -13.372536c-23.072205 -1.6139297 -47.21942 -2.8820114 -72.36316 -3.7466125c-6.2859497 -0.216156 -12.634155 -0.40708923 -19.043457 -0.57190704c-3.2046509 -0.08240509 -6.4245605 -0.15828705 -9.659546 -0.22751617l-1.6417236 -0.03337097" fill-rule="evenodd"></path>
+			<path data-start="170" data-duration="30" stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m523.05444 53.909977l-36.43857 12.840328l36.167145 13.585999z" fill-rule="evenodd"></path>
+
+		</g>
+	</svg>
+
+	<div class="custom__cells view view-tenth"><a href="/technologies/ipsc/">
+		<div class="custom__image-cell" style="margin-left: 1%;">
+			<h3 class="custom__cells-name">Somatic Cell</h3>
+			<img src="images/cell.png" />
+		</div>
+		<div class="custom__image-cell" style="margin-left: 35%;">
+			<h3 class="custom__cells-name">iPSC</h3>
+			<img src="images/ips.png" />
+		</div>
+		<div class="custom__image-cell" style="width: 30%; margin-left: 68%;">
+			<h3 class="custom__cells-name">Induced Motor Neuron</h3>
+			<img src="images/neuron.png" />
+		</div>
+		<div class="mask">
+			<p>Text <i><u>Learn More</u></i></p>
+		</div>
+	</a></div>
+
+	<div class="custom__assays">
+		<div class="custom__assay-image custom__image-animation view view-tenth"><a href="/technologies/transcriptomics/">
+			<img src="images/technologies/index/transcriptomics.jpg" />
+			<h1 class="custom__assay-name">Transcriptomics</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+		<div class="custom__assay-image custom__image-animation view view-tenth"><a href="/technologies/proteomics/">
+			<img src="images/technologies/index/proteomics.jpg" />
+			<h1 class="custom__assay-name">Proteomics</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+		<div class="custom__assay-image custom__image-animation view view-tenth"><a href="/technologies/epigenomics/">
+			<img src="images/technologies/index/epigenomics.jpg" />
+			<h1 class="custom__assay-name">Epigenomics</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</div>
+		<div class="custom__assay-image custom__image-animation view view-tenth"><a href="/technologies/imaging/">
+			<img src="images/technologies/index/imaging.jpg" />
+			<h1 class="custom__assay-name">Imaging</h1></a>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+		<div class="custom__assay-image custom__image-animation view view-tenth"><a href="/technologies/perturbations/">
+			<img src="images/technologies/index/perturbations.jpg" />
+			<h1 class="custom__assay-name">Perturbations</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+	</div>
+
+	<div class="custom__approaches">
+
+		<div class="custom__approach-image view view-tenth"><a href="/technologies/perturbations/">
+			<img src="images/network.png" />
+			<h1 class="custom__approach-name">Integrative Network Analyses</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+		<div class="custom__approach-image custom__approach-image-second view view-tenth"><a href="/technologies/perturbations/">
+			<img src="images/ml.png" />
+			<h1 class="custom__approach-name">Machine Learning Approaches</h1>
+			<div class="mask">
+				<p>Text <i><u>Learn More</u></i></p>
+			</div>
+		</a></div>
+
+	</div>
+
+	<svg id="svg2" class="custom__svg-two" version="1.1" viewBox="0.0 0.0 960.0 80.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<clipPath id="p.0"><path d="m0 0l960.0 0l0 720.0l-960.0 0l0 -720.0z" clip-rule="nonzero"></path></clipPath>
+		<g clip-path="url(#p.0)">
+			<path stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m256.53543 8.0c0 9.88205 31.86615 11.161736 63.7323 19.7641c7.966522 2.150591 15.933044 4.75885 23.401672 7.8447685c1.8671875 0.77148056 3.7032166 1.572815 5.5003357 2.404316c0.8985901 0.4157486 1.7874146 0.83903885 2.6655579 1.2699127c0.43911743 0.21543503 0.8754883 0.43276596 1.3091125 0.6520004l0.085510254 0.043575287" fill-rule="evenodd"></path>
+			<path stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m343.08823 48.44933l33.414642 19.393436l-13.131256 -36.334747z" fill-rule="evenodd"></path>
+			<path stroke="#444444" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" d="m536.53546 8.0c0 9.881983 -30.13388 11.216721 -60.26773 19.763964c-7.533478 2.1368122 -15.066956 4.7244053 -22.129578 7.7836323c-1.7656555 0.76480865 -3.5018616 1.5590935 -5.2013245 2.3831825c-0.84973145 0.41204453 -1.6902466 0.83153915 -2.5206604 1.258522l-0.041656494 0.021595001" fill-rule="evenodd"></path>
+			<path stroke="#444444" stroke-width="8.0" stroke-linecap="butt" d="m436.14282 30.849142l-12.742065 36.473038l33.205414 -19.749527z" fill-rule="evenodd"></path>
+		</g>
+	</svg>
+
+	<div class="custom__cell-signatures">
+		<p>Cell Signatures</p>
+
+	</div>
+
+
+
+</section>
+
+<section class="custom__pane-three" style="display: none;">
+
+	<h1 class="custom__title">Our Data</h1>
+
+	<p style="margin: 50px;">Waiting on a data manifest from Terri. The infrastructure to plot the data across cell types, diseases, assays, filetypes, and perturbations is set up</p>
+
+	<div class="custom__pie-chart"><canvas id="celltypes" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="diseases" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="assays" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div>
+	<div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div>
+
+</section>
+
+
+<!-- <img src="images/neurons_2.jpg" class="">
+<img src="images/neurons_2.jpg" class=""> -->
+
+
+
+<!-- header:
+  overlay_color: "#000"
+  overlay_filter: "0.0"
+  overlay_image: neurons.jpg
+excerpt: "The NeuroLINCS Center is an NIH-funded collaborative effort between various research groups with expertise in iPSC technology, disease modeling, OMICS methods, and computational biology. This data and signature generation center focuses on human brain cells to understand the causes of neurological disease and to develop new therapies."
+ -->
