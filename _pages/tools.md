@@ -24,7 +24,7 @@ PIUMet:
   - image_path: transcriptomics.jpg
     alt: "piumet"
     title: "PIUMet"
-    excerpt: "PIUMet is a network-based algorithm for integrative analysis of untargeted metabolomic data. It leverages known metabolic reactions and protein-protein interactions to analyze the ambiguous assignment of metabolomics features and identify disease-associated pathways and hidden components.  
+    excerpt: "PIUMet is a network-based algorithm for integrative analysis of untargeted metabolomic data. It leverages known metabolic reactions and protein-protein interactions to analyze the ambiguous assignment of metabolomics features and identify disease-associated pathways and hidden components."
     links:
       - "[Use PIUMet](http://fraenkel-nsf.csbi.mit.edu/PIUMet/)"
       - "[Read more at Nature Methods](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3940.html)"
