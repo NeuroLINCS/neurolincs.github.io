@@ -22,7 +22,9 @@ The NeuroLINCS Center creates a wealth of cellular data that is patient-specific
 Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition characterized by loss of motor neurons in the brain and spinal cord. Spinal muscular atrophy (SMA) is a recessively inherited pediatric neuromuscular disease characterized by degeneration of spinal motor neurons. The control (CTR) cells come from healthy individuals.
 
 
-## iPSC (Exp 1) - ALS, SMA and Control (unaffected) subject-derived iPSC lines.
+# Experiment 1
+
+## iPSC - ALS, SMA and Control (unaffected) subject-derived iPSC lines.
 
 ### WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and protein respectively obtained from induced Pluripotent Stem Cells (iPSC) cell lines. These lines were derived from ALS, SMA and Control (unaffected) individuals (three of each).
 
@@ -31,13 +33,20 @@ Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition char
 - [ATAC-Seq](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1354)
 
 
-## iMN (Exp 2) – ALS, SMA and Control (unaffected) subject motor neuron lines - iMN long Differentiation protocol
+# Experiment 2
 
-Being released in Spring of 2017
+## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
+## iMN long differentiation protocol
 
-## iMN (Exp 3) – ALS, SMA and Control (unaffected) subject motor neuron lines - iMN long Differentiation protocol
+Data release Spring of 2017
 
-Being released in Spring of 2018
+
+# Experiment 3
+
+## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
+## iMN short differentiation protocol - mature neurons
+
+Data release Fall of 2017
 
 
 
