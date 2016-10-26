@@ -37,12 +37,11 @@
 }
 
 .custom__pane-one .custom__cells .custom__image-cell {
-	width: 30%;
 	float: left;
 }
 
 .custom__pane-one .custom__cells .custom__right-arrow {
-	width: 20%;
+	width: 25%;
 	float: left;
 }
 
