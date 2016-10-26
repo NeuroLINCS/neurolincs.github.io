@@ -30,9 +30,6 @@ PIUMet:
       - "[Read more at Nature Methods](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3940.html)"
 ---
 
-<!-- Note: We're sketchily using the alt tag to pass the ID through to feature row. -->
-<!-- Make sure the alt tags are properly set above.  -->
-
 {% include feature_row id="AChroMap" type="left" %}
 
 {% include feature_row id="Omics" type="left" %}
