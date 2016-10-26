@@ -5,7 +5,7 @@ year: 2016
 author: Benjamin A. Shaby
 authors: "Shaby BA, Skibinski G, Ando M, LaDow ES, Finkbeiner S"
 links:
-  - "[Biometrics. 2016 Sep;72(3):936-44. doi: 10.1111/biom.12479](http://onlinelibrary.wiley.com/doi/10.1111/biom.12479/abstract;jsessionid=7FB66A2B26138ED64A896804C0B49B7D.f02t02)"
+  - "[Biometrics 2016 Sep;72(3):936-44. doi: 10.1111/biom.12479](http://onlinelibrary.wiley.com/doi/10.1111/biom.12479/abstract;jsessionid=7FB66A2B26138ED64A896804C0B49B7D.f02t02)"
 ---
 
 
