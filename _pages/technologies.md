@@ -21,6 +21,7 @@ Transcriptomics:
     title: "Transcriptomics"
     excerpt: "RNA-Seq is a deep sequencing approach to transcriptome profiling. Studies using this method will precisely measure the extent and complexity of transcriptional perturbations in iPSC derived motor neurons."
     links:
+      - "[Pipeline](https://neurolincs.github.io/pdf/LINCS-RNAseq-Data-Pipeline.pdf)"
 
 Proteomics:
   - image_path: technologies/proteomics.jpg
@@ -28,7 +29,7 @@ Proteomics:
     title: "Proteomics"
     excerpt: "We perform SWATH-MS, a data-independent acquisition (DIA) method. DIA library generation, required for the primary method of analyzing DIA data, can be performed by several methods and there is no current standard in the field. We tested several methods and variables that go into generating an iPSC and iMN specific library, including data generated on multiple different instruments, various alterations within the instrument method itself and different programs that use the data to make the library. Sample specific libraries have been generated from aliquots of all iPSC and iMN samples respectively to generate an iPSC and iMN library."
     links:
-      - "[Level 0](https://chorusproject.org/pages/index.html)"
+      - "[Level 0 on Chorus](https://chorusproject.org/pages/index.html)"
 
 Epigenomics:
   - image_path: technologies/epigenomics.jpg
