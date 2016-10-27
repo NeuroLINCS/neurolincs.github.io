@@ -63,7 +63,7 @@
 $(document).ready(function() {
   $(".descriptions").hide();
 
-  $(".custom__assay-image, .custom__cell-image").hover(function(e) {
+  $(".custom__assay-image, .custom__cell-image, .custom__approach-image").hover(function(e) {
     $(".descriptions").hide();
     console.log(e.target);
     console.log("#desc_"+e.target.id);
