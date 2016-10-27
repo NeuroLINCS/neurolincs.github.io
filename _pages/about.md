@@ -3,7 +3,7 @@ layout: single
 permalink: /about/
 ---
 
-![image-right]({{ site.url }}{{ site.baseurl }}/images/people_ABOUT.png){: .align-right}
+![image-right]({{ site.url }}{{ site.baseurl }}/images/about.png){: .align-right}
 
 # NeuroLINCS Center
 

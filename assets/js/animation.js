@@ -43,10 +43,19 @@ $.getJSON("/data/metadata.json", function(json) {
   // chart(["#filetypes", filetypes, "File Types"])
   // chart(["#perturbations", perturbations, "Perturbations"])
 
-
 });
 
+$(document).ready(function() {
+  $(".descriptions").hide();
 
+  $(".custom__assay-image, .custom__cell-image").hover(function(e) {
+    $(".descriptions").hide();
+    console.log(e.target);
+    console.log("#desc_"+e.target.id);
+    $("#desc_"+e.target.id).show();
+  }, function(e) {return false;});
+
+});
 
 
 
