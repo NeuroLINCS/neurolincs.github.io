@@ -11,7 +11,7 @@ iPSC:
     links:
       - "[iMPS Platedown Procedure](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure.pdf)"
       - "[iMPS Platedown Procedure - Media Formulations](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure-Media-Formulations.pdf)"
-      
+
 Perturbations:
   - image_path: technologies/perturbations.jpg
     alt: "perturbations"
@@ -32,6 +32,8 @@ Proteomics:
     title: "Proteomics"
     excerpt: "We perform SWATH-MS (**S**equential **W**indow **A**cquisition of all **TH**eoretical fragment ion spectra by **M**ass-**S**pectrometry), a data-independent acquisition (DIA) method. DIA library generation, required for the primary method of analyzing DIA data, can be performed by several methods and there is no current standard in the field. We tested several methods and variables that go into generating an iPSC and iMN specific library, including data generated on multiple different instruments, various alterations within the instrument method itself and different programs that use the data to make the library. Sample specific libraries have been generated from aliquots of all iPSC and iMN samples respectively to generate an iPSC and iMN library."
     links:
+      - "[SWATH-MS Procedure](https://neurolincs.github.io/pdf/DIA-MS.pdf)"
+
 
 Epigenomics:
   - image_path: technologies/epigenomics.jpg
