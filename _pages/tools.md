@@ -7,7 +7,7 @@ AChroMap:
   - image_path: tools/achromap.jpg
     alt: "achromap"
     title: "AChroMap"
-    excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNAseH) for a given set of differentially expressed genes."
+    excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNase-seq) for a given set of differentially expressed genes."
     links:
       - "[Use AchroMAP](http://www.neurolincs.org/shiny/achromap/)"
 
