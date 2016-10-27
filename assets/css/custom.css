@@ -93,6 +93,12 @@
 	text-shadow: 1px 1px 3px black;
 	color: white !important;
 }
+.custom__pane-one .custom__approach-name {
+	background-color: white;
+	border: 4px solid #dddddd;
+}
+
+
 .custom__pane-one .custom__approach-name,
 .custom__pane-one .custom__cells-name {
 	color: black !important;
@@ -132,7 +138,7 @@
 }
 
 .custom__pane-one .custom__approach-image {
-	width: 40%;
+	width: 80%;
 	float: left;
 }
 
