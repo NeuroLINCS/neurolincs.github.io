@@ -164,6 +164,9 @@
 	float: left;
 }
 
+.descriptions::-webkit-scrollbar {
+    display: none;
+}
 
 /* No longer in use: */
 /*
