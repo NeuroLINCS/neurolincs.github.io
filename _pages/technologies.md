@@ -24,6 +24,7 @@ Transcriptomics:
     title: "Transcriptomics"
     excerpt: "RNA-Seq is a deep sequencing approach to transcriptome profiling. Studies using this method will precisely measure the extent and complexity of transcriptional perturbations in iPSC derived motor neurons."
     links:
+      - "[Protocol](https://neurolincs.github.io/pdf/NeuroLINCS-RNAseq-protocol-26OCT2016.pdf)"
       - "[Pipeline](https://neurolincs.github.io/pdf/LINCS-RNAseq-Data-Pipeline.pdf)"
 
 Proteomics:
