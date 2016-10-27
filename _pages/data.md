@@ -34,7 +34,8 @@ Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition char
 # Experiment 2
 
 ## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
-## iMN long differentiation protocol
+
+**iMN long differentiation protocol**
 
 Data release Spring of 2017
 
@@ -42,7 +43,8 @@ Data release Spring of 2017
 # Experiment 3
 
 ## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
-## iMN short differentiation protocol - mature neurons
+
+**iMN short differentiation protocol - mature neurons**
 
 Data release Fall of 2017
 
