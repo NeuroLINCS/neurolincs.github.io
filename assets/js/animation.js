@@ -5,37 +5,37 @@
 
 
 
-$.getJSON("/data/metadata.json", function(json) {
+// $.getJSON("/data/metadata.json", function(json) {
 
-  // obj["Name"]
-  // obj["LINCS-ID"]
-  var celltypes = _(json).countBy(function(obj) {return obj["Cell-type"]});
-  var diseases = _(json).countBy(function(obj) {return obj["Disease"]});
-  var assays = _(json).countBy(function(obj) {return obj["Assays"]});
-  var filetypes = _(json).countBy(function(obj) {return obj["Filetype"]});
-  var perturbations = _(json).countBy(function(obj) {return obj["Perturbation"]});
+//   // obj["Name"]
+//   // obj["LINCS-ID"]
+//   var celltypes = _(json).countBy(function(obj) {return obj["Cell-type"]});
+//   var diseases = _(json).countBy(function(obj) {return obj["Disease"]});
+//   var assays = _(json).countBy(function(obj) {return obj["Assays"]});
+//   var filetypes = _(json).countBy(function(obj) {return obj["Filetype"]});
+//   var perturbations = _(json).countBy(function(obj) {return obj["Perturbation"]});
 
-  var chart = function(thing) {
+//   var chart = function(thing) {
 
-    var ctx = $(thing[0]);
-    var myChart = new Chart(ctx, {
-      type: "doughnut",
-      data: {
-        labels: _.keys(thing[1]),
-        datasets: [{
-          data: _.values(thing[1])
-        }]
-      },
-      options: {
-        title: {
-          display: true,
-          text: thing[2],
-          fontSize: 24
-        }
-      }
-    });
+//     var ctx = $(thing[0]);
+//     var myChart = new Chart(ctx, {
+//       type: "doughnut",
+//       data: {
+//         labels: _.keys(thing[1]),
+//         datasets: [{
+//           data: _.values(thing[1])
+//         }]
+//       },
+//       options: {
+//         title: {
+//           display: true,
+//           text: thing[2],
+//           fontSize: 24
+//         }
+//       }
+//     });
 
-  }
+//   }
 
   // chart(["#diseases", diseases, "Diseases"])
   // chart(["#celltypes", celltypes, "Cell Types"])
@@ -43,7 +43,22 @@ $.getJSON("/data/metadata.json", function(json) {
   // chart(["#filetypes", filetypes, "File Types"])
   // chart(["#perturbations", perturbations, "Perturbations"])
 
-});
+
+// });
+
+// <section class="custom__pane-three">
+
+//   <h1 class="custom__title">Our Data</h1>
+
+//   <p style="margin-left: 20px;">Waiting on a data manifest from Terri. The infrastructure to plot the data across cell types, diseases, assays, filetypes, and perturbations is set up, and I've built a plot with dummy data: </p>
+
+//   <div class="custom__pie-chart"><canvas id="celltypes" width="100" height="100"></canvas></div>
+//   <div class="custom__pie-chart"><canvas id="diseases" width="100" height="100"></canvas></div>
+//   <div class="custom__pie-chart"><canvas id="assays" width="100" height="100"></canvas></div>
+//   <div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div>
+//   <div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div>
+
+// </section>
 
 $(document).ready(function() {
   $(".descriptions").hide();
@@ -55,7 +70,56 @@ $(document).ready(function() {
     $("#desc_"+e.target.id).show();
   }, function(e) {return false;});
 
+  // charts for data page
+
+  var Celltypes = new Chart($("#celltypes"), {
+    type: "doughnut",
+    data: {
+      labels: ["iPSC", "iMN"],
+      datasets: [{
+        data: [309, 19],
+        backgroundColor: ['rgba(255, 99, 132, 0.2)','rgba(54, 162, 235, 0.2)'],
+        borderColor: ['rgba(255,99,132,1)','rgba(54, 162, 235, 1)']
+      }]
+    },
+    options: {
+      title: { display: true, text: "Cell Types", fontSize: 24 }
+    }
+  });
+
+  var Diseases = new Chart($("#diseases"), {
+    type: "doughnut",
+    data: {
+      labels: ["ALS", "SMA", "Control"],
+      datasets: [{
+        data: [125, 95, 108],
+        backgroundColor: ['rgba(255, 206, 86, 0.2)','rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)'],
+        borderColor: ['rgba(255, 206, 86, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)']
+      }]
+    },
+    options: {
+      title: { display: true, text: "Diseases", fontSize: 24 }
+    }
+  });
+
+  var Assays = new Chart($("#assays"), {
+    type: "doughnut",
+    data: {
+      labels: ["Transcriptomic", "Epigenomic", "Proteomic", "Imaging"],
+      datasets: [{
+        data: [207, 18, 84, 19],
+        backgroundColor: ['rgba(54, 162, 235, 0.2)','rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)','rgba(255, 159, 64, 0.2)'],
+        borderColor: ['rgba(54, 162, 235, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)']
+      }]
+    },
+    options: {
+      title: { display: true, text: "Assays", fontSize: 24 }
+    }
+  });
+
+
 });
+
 
 
 

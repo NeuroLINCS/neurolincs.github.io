@@ -148,6 +148,17 @@
 	margin: 4vw 2% 0px;
 }
 
+.custom__pane-three {
+	position: absolute;
+	width: 100%;
+	margin: 0px;
+}
+.custom__pie-chart {
+	width: 30%;
+	float: left;
+}
+
+
 /* No longer in use: */
 /*
 .custom__pane-two {
@@ -288,11 +299,7 @@
 	background-color: #f8f8f8;
 }
 
-.custom__pane-two .custom__pie-chart {
-	width: 300px;
-	height: 300px;
-	position: static;
-}*/
+*/
 
 .custom__approach-image .mask p {
 	top: 2vw !important;

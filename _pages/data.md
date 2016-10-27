@@ -3,19 +3,17 @@ layout: single
 permalink: /data/
 ---
 
-<!-- <section class="custom__pane-three">
+<h1 class="custom__title">Our Data</h1>
 
-	<h1 class="custom__title">Our Data</h1>
+<section class="page__hero">
 
-	<p style="margin-left: 20px;">Waiting on a data manifest from Terri. The infrastructure to plot the data across cell types, diseases, assays, filetypes, and perturbations is set up, and I've built a plot with dummy data: </p>
+<div class="custom__pie-chart"><canvas id="celltypes" width="10" height="10"></canvas></div>
+<div class="custom__pie-chart"><canvas id="diseases" width="10" height="10"></canvas></div>
+<div class="custom__pie-chart"><canvas id="assays" width="10" height="10"></canvas></div>
+<!-- <div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div> -->
+<!-- <div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div> -->
 
-	<div class="custom__pie-chart"><canvas id="celltypes" width="100" height="100"></canvas></div>
-	<div class="custom__pie-chart"><canvas id="diseases" width="100" height="100"></canvas></div>
-	<div class="custom__pie-chart"><canvas id="assays" width="100" height="100"></canvas></div>
-	<div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div>
-	<div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div>
-
-</section> -->
+</section>
 
 The NeuroLINCS Center creates a wealth of cellular data that is patient-specific in the context of their baseline genetic perturbations and in the presence of other environmental stressors. Motor neurons (iMNs) are produced from induced pluripotent stem cell (iPSC) technologies and these cells are analyzed using epigenomics, transcriptomics, proteomics, and robotic imaging.
 
