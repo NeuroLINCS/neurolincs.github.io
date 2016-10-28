@@ -160,8 +160,9 @@
 	margin: 0px;
 }
 .custom__pie-chart {
-	width: 30%;
-	float: left;
+	width: 50%;
+	margin-left: 25%;
+	/*float: left;*/
 }
 
 .descriptions::-webkit-scrollbar {

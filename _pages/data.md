@@ -7,9 +7,9 @@ permalink: /data/
 
 <section class="page__hero">
 
-<div class="custom__pie-chart"><canvas id="celltypes" width="10" height="10"></canvas></div>
+<!-- <div class="custom__pie-chart"><canvas id="celltypes" width="10" height="10"></canvas></div> -->
 <div class="custom__pie-chart"><canvas id="diseases" width="10" height="10"></canvas></div>
-<div class="custom__pie-chart"><canvas id="assays" width="10" height="10"></canvas></div>
+<!-- <div class="custom__pie-chart"><canvas id="assays" width="10" height="10"></canvas></div> -->
 <!-- <div class="custom__pie-chart"><canvas id="filetypes" width="100" height="100"></canvas></div> -->
 <!-- <div class="custom__pie-chart"><canvas id="perturbations" width="100" height="100"></canvas></div> -->
 

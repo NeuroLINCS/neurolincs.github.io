@@ -72,50 +72,51 @@ $(document).ready(function() {
 
   // charts for data page
 
-  var Celltypes = new Chart($("#celltypes"), {
-    type: "doughnut",
-    data: {
-      labels: ["iPSC", "iMN"],
-      datasets: [{
-        data: [309, 19],
-        backgroundColor: ['rgba(255, 99, 132, 0.2)','rgba(54, 162, 235, 0.2)'],
-        borderColor: ['rgba(255,99,132,1)','rgba(54, 162, 235, 1)']
-      }]
-    },
-    options: {
-      title: { display: true, text: "Cell Types", fontSize: 24 }
-    }
-  });
+  // var Celltypes = new Chart($("#celltypes"), {
+  //   type: "doughnut",
+  //   data: {
+  //     labels: ["iPSC", "iMN"],
+  //     datasets: [{
+  //       data: [309, 19],
+  //       backgroundColor: ['rgba(255, 99, 132, 0.2)','rgba(54, 162, 235, 0.2)'],
+  //       borderColor: ['rgba(255,99,132,1)','rgba(54, 162, 235, 1)']
+  //     }]
+  //   },
+  //   options: {
+  //     title: { display: true, text: "Cell Types", fontSize: 24 }
+  //   }
+  // });
 
   var Diseases = new Chart($("#diseases"), {
     type: "doughnut",
     data: {
       labels: ["ALS", "SMA", "Control"],
       datasets: [{
-        data: [125, 95, 108],
+        data: [4, 3, 3],
         backgroundColor: ['rgba(255, 206, 86, 0.2)','rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)'],
         borderColor: ['rgba(255, 206, 86, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)']
       }]
     },
     options: {
-      title: { display: true, text: "Diseases", fontSize: 24 }
+      title: { display: true, text: "Diseases", fontSize: 24 },
+      tooltips: {enabled: false}
     }
   });
 
-  var Assays = new Chart($("#assays"), {
-    type: "doughnut",
-    data: {
-      labels: ["Transcriptomic", "Epigenomic", "Proteomic", "Imaging"],
-      datasets: [{
-        data: [207, 18, 84, 19],
-        backgroundColor: ['rgba(54, 162, 235, 0.2)','rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)','rgba(255, 159, 64, 0.2)'],
-        borderColor: ['rgba(54, 162, 235, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)']
-      }]
-    },
-    options: {
-      title: { display: true, text: "Assays", fontSize: 24 }
-    }
-  });
+  // var Assays = new Chart($("#assays"), {
+  //   type: "doughnut",
+  //   data: {
+  //     labels: ["Transcriptomic", "Epigenomic", "Proteomic", "Imaging"],
+  //     datasets: [{
+  //       data: [207, 18, 84, 19],
+  //       backgroundColor: ['rgba(54, 162, 235, 0.2)','rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)','rgba(255, 159, 64, 0.2)'],
+  //       borderColor: ['rgba(54, 162, 235, 1)','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)']
+  //     }]
+  //   },
+  //   options: {
+  //     title: { display: true, text: "Assays", fontSize: 24 }
+  //   }
+  // });
 
 
 });
