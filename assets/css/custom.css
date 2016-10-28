@@ -55,6 +55,7 @@
 */
 .custom__pane-one .custom__cells .custom__cell-image {
 	float: left;
+	overflow: visible;
 }
 
 .custom__pane-one .custom__cells .custom__right-arrow {
