@@ -29,9 +29,7 @@
 .custom__row > * {
 	position: static;
 	float: left;
-
 }
-
 .custom__pane-one .custom__cells {
 	width: 35%;
 	opacity: 1.0;
@@ -55,6 +53,7 @@
 */
 .custom__pane-one .custom__cells .custom__cell-image {
 	float: left;
+	overflow: visible;
 }
 
 .custom__pane-one .custom__cells .custom__right-arrow {
@@ -154,15 +153,19 @@
 	margin: 4vw 2% 0px;
 }
 
-.custom__pane-three {
-	position: absolute;
-	width: 100%;
-	margin: 0px;
-}
+
+/* Data Page Styles: */
+
 .custom__pie-chart {
-	width: 50%;
-	margin-left: 25%;
-	/*float: left;*/
+	margin-bottom: 50px;
+}
+
+.custom__pie-chart {
+	width: 60%;
+	margin-left: 20%;
+}
+.custom__bar-chart {
+	width: 100%;
 }
 
 .descriptions::-webkit-scrollbar {
