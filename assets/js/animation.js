@@ -123,7 +123,6 @@ $(document).ready(function() {
     options: {
       title: { display: true, text: "Data Releases", fontSize: 24 },
       scales: {xAxes: [{ stacked: true }], yAxes: [{ stacked: true }] },  // Convoluted way of saying "stacked bar chart please"
-      tooltips: {enabled: false},
       legend: { labels: { fontSize: 16 } }
     }
   });
