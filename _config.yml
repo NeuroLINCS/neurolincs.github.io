@@ -12,7 +12,7 @@ title_image              : "logo.png"
 title_separator          : "-"
 name                     : "NeuroLINCS"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://localhost:4000/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -56,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "neurolincs"
 facebook:
   username               :
   app_id                 :
@@ -71,15 +71,15 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-63026293-1"
 
 
 # Site Author
 author:
   name             : "NeuroLINCS"
-  avatar           : ""
+  avatar           : "people.jpg"
   bio              : ""
   location         : ""
   email            :
@@ -101,11 +101,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/neurolincs"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UCx144S2wDkh0mrO7lQjP0Xg"
 
 
 # Reading Files
