@@ -12,7 +12,7 @@ title_image              : "logo.png"
 title_separator          : "-"
 name                     : "NeuroLINCS"
 description              : "An amazing website."
-url                      : #"https://neurolincs.org"
+url                      : #"http://localhost:4000"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -90,7 +90,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/neurolincs"
   google_plus      :
   keybase          :
   instagram        :
