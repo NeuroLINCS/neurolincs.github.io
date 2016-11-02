@@ -1,5 +1,5 @@
 ---
-title: "ALS disrupts spinal motor neuron maturation and aging pathways within gene co-expression networks."
+title: "ALS Disrupts Spinal Motor Neuron Maturation and Aging Pathways Within Gene Co-Expression Networks."
 excerpt: ""
 year: 2016
 author: Ritchie Ho
