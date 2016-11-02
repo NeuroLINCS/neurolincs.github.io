@@ -11,7 +11,7 @@ iPSC:
     links:
       - "[iMPS Platedown Procedure](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure.pdf)"
       - "[iMPS Platedown Procedure - Media Formulations](https://neurolincs.github.io/pdf/iMPS-Platedown-Procedure-Media-Formulations.pdf)"
-      - "[diMN Protocol](https://neurolincs.github.io/pdf/diMN-Protocol.pdf)"
+      - "[diMN Protocol](https://neurolincs.github.io/pdf/diMN-protocol.pdf)"
 
 Perturbations:
   - image_path: technologies/perturbations.jpg
