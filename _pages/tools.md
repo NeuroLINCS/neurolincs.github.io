@@ -28,6 +28,16 @@ PIUMet:
     links:
       - "[Use PIUMet](http://fraenkel-nsf.csbi.mit.edu/PIUMet/)"
       - "[Read more at Nature Methods](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3940.html)"
+
+Galaxy:
+  - image_path: tools/galaxy.png
+    alt: "galaxy"
+    title: "NeuroLINCS Galaxy"
+    excerpt: "We've released a custom 'flavor' of Galaxy, a docker image producing a galaxy optimized for our analyzes, available to the community."
+    links:
+      - "[Learn more about Galaxy](https://galaxyproject.org/)"
+      - "[The NeuroLINCS Galaxy Instance](https://galaxy.neurolincs.org/)"
+      - "[The NeuroLINCS-Galaxy Image](https://github.com/fraenkel-lab/galaxy-neurolincs)"
 ---
 
 {% include feature_row id="AChroMap" type="left" %}
@@ -35,3 +45,5 @@ PIUMet:
 {% include feature_row id="Omics" type="left" %}
 
 {% include feature_row id="PIUMet" type="left" %}
+
+{% include feature_row id="Galaxy" type="left" %}
