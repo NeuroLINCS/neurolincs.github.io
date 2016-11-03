@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 
-<form action="https://formspree.io/alex@lenail.org" method="POST">
+<form action="https://formspree.io/terri@onpointsci.com" method="POST">
 <input type="text" name="name" placeholder="Your Name">
 <input type="email" name="_replyto" placeholder="Your Email">
 <textarea type="text" name="body" placeholder="Comments and Questions..." style="height: 200px;"></textarea>
