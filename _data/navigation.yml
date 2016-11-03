@@ -14,9 +14,12 @@ main:
 
   - title: "Data"
     url: /data/
-  
+
   - title: "Tools"
     url: /tools/
-    
+
   - title: "News"
     url: /news/
+
+  - title: "Contact"
+    url: /contact/
