@@ -24,9 +24,17 @@ Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition char
 ## iPSC - ALS, SMA and Control (unaffected) subject-derived iPSC lines.
 WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and protein respectively obtained from induced Pluripotent Stem Cell (iPSC) lines. These lines were derived from ALS, SMA and Control (unaffected) individuals.  Multiple levels of data and analysis including full information on the number of replicates are available at the links below.
 
-- [RNA-Seq](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1356)
-- [Proteomic – SWATH-MS](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1358)
-- [ATAC-Seq](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1354)
+### RNA-Seq
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1356)
+
+### ATAC-Seq
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1354)
+
+### Proteomics
+- [Raw Data – Chorus Project](https://chorusproject.org/pages/dashboard.html#/search/neuroLINCS/projects)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1358)
 
 ---
 
