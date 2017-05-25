@@ -5,7 +5,7 @@ year: 2016
 author: Dhruv Sareen
 authors: "Fuller HR, Mandefro B, Shirran SL, Gross AR, Kaus AS, Botting CH, Morris GE, Sareen D."
 links:
-  - "[Front. Cell. Neurosci., 11 January 2016 | https://doi.org/10.3389/fncel.2015.00506](http://journal.frontiersin.org/article/10.3389/fncel.2015.00506/full)"
+  - "[Front. Cell. Neurosci., 11 January 2016 https://doi.org/10.3389/fncel.2015.00506](http://journal.frontiersin.org/article/10.3389/fncel.2015.00506/full)"
 ---
 
 
