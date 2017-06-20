@@ -43,7 +43,18 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 ## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
 **iMN long differentiation protocol**
 
-Data release Spring of 2017
+### RNA-Seq
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1))
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1398)
+
+### ATAC-Seq
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1))
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1400)
+
+### Proteomics
+- [Raw Data – Chorus Project](https://chorusproject.org/pages/dashboard.html#/search/neuroLINCS/projects)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1423)
+
 
 ---
 
