@@ -44,11 +44,11 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 **iMN long differentiation protocol**
 
 ### RNA-Seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1))
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1398)
 
 ### ATAC-Seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1))
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1400)
 
 ### Proteomics
