@@ -36,7 +36,7 @@ Galaxy:
     excerpt: "We've released a custom 'flavor' of Galaxy, a docker image producing a galaxy optimized for our analyzes, available to the community."
     links:
       - "[Learn more about Galaxy](https://galaxyproject.org/)"
-      - "[The NeuroLINCS Galaxy Instance](https://galaxy.neurolincs.org/)"
+      - "[The NeuroLINCS Galaxy Instance](http://galaxy.neurolincs.org/)"
       - "[The NeuroLINCS-Galaxy Image](https://github.com/fraenkel-lab/galaxy-neurolincs)"
 ---
 
