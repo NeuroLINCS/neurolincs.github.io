@@ -38,7 +38,7 @@ Galaxy:
       - "[Learn more about Galaxy](https://galaxyproject.org/)"
       - "[The NeuroLINCS Galaxy Instance](http://galaxy.neurolincs.org/)"
       - "[Information about our Galaxy Workflows](http://galaxy.neurolincs.org/u/terri/p/neurolincs-data-analysis-workflows)"
-      - "[The NeuroLINCS-Galaxy Docker Image](https://github.com/fraenkel-lab/galaxy-neurolincs)"
+      - "[The NeuroLINCS-Galaxy Docker Image](https://github.com/fraenkel-lab/galaxy-neurolincs). If you intend to reproduce or conduct similar analyses at scale, comes pre-configured with the tools we use as part of our workflows."
 ---
 
 {% include feature_row id="AChroMap" type="left" %}
