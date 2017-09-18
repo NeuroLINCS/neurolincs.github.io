@@ -3,7 +3,7 @@ title: "The C9orf72 repeat expansion disrupts nucleocytoplasmic transport"
 excerpt: ""
 year: 2015
 author: Jeff Rothstein
-authors: "The HD iPSC Consortium"
+authors: "Zhang K, Donnelly CJ, Haeusler AR, Grima JC, Machamer JB, Steinwald P, Daley EL, Miller SJ, Cunningham KM, Vidensky S, Gupta S, Thomas MA, Hong I, Chiu SL, Huganir RL, Ostrow LW, Matunis MJ, Wang J, Sattler R, Lloyd TE, Rothstein J."
 links:
   - "[Nature 525, 56–61 (03 September 2015) doi:10.1038/nature14973](https://www.nature.com/nature/journal/v525/n7567/full/nature14973.html)"
 ---
