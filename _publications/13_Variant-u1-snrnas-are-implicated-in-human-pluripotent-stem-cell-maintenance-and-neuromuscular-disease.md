@@ -3,7 +3,7 @@ title: "Variant U1 snRNAs are implicated in human pluripotent stem cell maintena
 excerpt: ""
 year: 2016
 author: Dhruv Sareen
-authors: "Pilar Vazquez-Arango  Jane Vowles  Cathy Browne  Elizabeth Hartfield Hugo J. R. Fernandes  Berhan Mandefro  Dhruv Sareen  William James Richard Wade-Martins  Sally A. Cowley  Shona Murphy  Dawn O'Reilly"
+authors: "Pilar Vazquez-Arango, Jane Vowles, Cathy Browne, Elizabeth Hartfield, Hugo J. R. Fernandes, Berhan Mandefro, Dhruv Sareen, William James, Richard Wade-Martins, Sally A. Cowley, Shona Murphy, Dawn O'Reilly"
 links:
   - "[Nucleic Acids Res (2016) 44 (22): 10960-10973. DOI: https://doi.org/10.1093/nar/gkw711](https://academic.oup.com/nar/article/44/22/10960/2691326/Variant-U1-snRNAs-are-implicated-in-human)"
 ---
