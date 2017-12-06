@@ -6,7 +6,6 @@ author: Dhruv Sareen
 authors: "Woo CJ, Maier VK, Davey R, Brennan J, Li G, Brothers J 2nd, Schwartz B, Gordo S, Kasper A, Okamoto TR, Johansson HE, Mandefro B, Sareen D, Bialek P, Chau BN, Bhat B, Bullough D, Barsoum J."
 links:
   - "[Proc Natl Acad Sci U S A. 2017 Feb 21;114(8):E1509-E1518. doi: 10.1073/pnas.1616521114. Epub 2017 Feb 13.](http://www.pnas.org/content/114/8/E1509.long)"
-
 ---
 
 
