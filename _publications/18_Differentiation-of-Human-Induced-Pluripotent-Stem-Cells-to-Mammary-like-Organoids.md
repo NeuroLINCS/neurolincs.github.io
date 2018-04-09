@@ -4,6 +4,8 @@ excerpt: ""
 year: 2017
 author: Dhruv Sareen
 authors: "Qu Y, Han B, Gao B, Bose S, Gong Y, Wawrowsky K, Giuliano AE, Sareen D, Cui X." 
+links:
+  - "[Stem Cell Reports. 2017 Feb 14;8(2):205-215. doi: 10.1016/j.stemcr.2016.12.023.](http://www.cell.com/stem-cell-reports/abstract/S2213-6711(16)30313-7)"
 ---
 
 
