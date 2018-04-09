@@ -1,5 +1,5 @@
 ---
-title: "Assessing microscope image focus quality with deep learning"
+title: "Assessing Microscope Image Focus Quality With Deep Learning"
 excerpt: ""
 year: 2018
 author: Steve Finkbeiner
