@@ -64,13 +64,13 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 **iMN short differentiation protocol - mature neurons**
 
 ### RNA-seq
-- Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
-- Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1499)
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1499)
  
 ### ATAC-seq
-- Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
-- Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1501)
+- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1501)
  
 ### Proteomics
-- Raw Data – Chorus Project](https://chorusproject.org/pages/dashboard.html#/search/neuroLINCS/projects)
+- [Raw Data – Chorus Project](https://chorusproject.org/pages/dashboard.html#/search/neuroLINCS/projects)
 - Processed Data – Coming soon!
