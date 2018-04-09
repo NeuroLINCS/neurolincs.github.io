@@ -1,5 +1,5 @@
 ---
-title: "A comparison of mRNA sequencing with random primed and 3-directed libraries"
+title: "A comparison of mRNA sequencing with random primed and 3 directed libraries"
 excerpt: ""
 year: 2017
 author: Leslie Thompson
