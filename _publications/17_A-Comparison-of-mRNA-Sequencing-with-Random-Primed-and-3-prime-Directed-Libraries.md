@@ -5,7 +5,7 @@ year: 2017
 author: Leslie Thompson
 authors: "Yuguang Xiong, Magali Soumillon, Jie Wu, Jens Hansen, Bin Hu, Johan G.C. van Hasselt, Gomathi Jayaraman, Ryan Lim, Mehdi Bouhaddou, Loren Ornelas, James Bochicchio, Lindsay Lenaeus, Jennifer Stocksdale, Jaehee Shim, Emilda Gomez, Dhruv Sareen, Clive Svendsen, Leslie M Thompson, Milind Mahajan, Ravi Iyengar, Eric A Sobie, Evren U Azeloglu, Marc R Birtwistle"
 links:
-  - [BioRXiv, doi: https://doi.org/10.1101/098905](https://www.biorxiv.org/content/early/2017/01/06/098905)
+  - "[BioRXiv, doi: https://doi.org/10.1101/098905](https://www.biorxiv.org/content/early/2017/01/06/098905)"
 ---
 
 ## Abstract
