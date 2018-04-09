@@ -5,7 +5,7 @@ year: 2017
 author: Steve Finkbeiner
 authors: "Skibinski G, Hwang V, Ando DM, Daub A, Lee AK, Ravisankar A, Modan S, Finucane MM, Shaby BA, Finkbeiner S."
 links:
-  - "[Proc Natl Acad Sci U S A. 2017 Jan 31;114(5):1165-1170. doi: 10.1073/pnas.1522872114.](http://www.pnas.org/content/114/5/1165.long)
+  - "[Proc Natl Acad Sci U S A. 2017 Jan 31;114(5):1165-1170. doi: 10.1073/pnas.1522872114.](http://www.pnas.org/content/114/5/1165.long)"
 ---
 
 
