@@ -60,8 +60,8 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 
 # Experiment 3
 
-## Motor Neurons (iMNs) – ALS, SMA and Control (unaffected) subject motor neuron lines
-**iMN short differentiation protocol - mature neurons**
+## Motor Neurons (diMNs) – ALS and Control (unaffected) subject motor neuron lines
+**diMN short differentiation protocol - mature neurons**
 
 ### RNA-seq
 - [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
