@@ -232,3 +232,7 @@
 .custom__cells .mask {
 	top: 0px !important;
 }
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+}
