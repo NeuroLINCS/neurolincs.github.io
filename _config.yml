@@ -12,7 +12,7 @@ title_image              : "logo.png"
 title_separator          : "-"
 name                     : "NeuroLINCS"
 description              : "An amazing website."
-url                      : #"http://localhost:4000"
+url                      : "http://localhost:4000"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -174,7 +174,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       layout: single
       author_profile: true
@@ -185,7 +185,7 @@ defaults:
   # _pages
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
       layout: single
       read_time: false
@@ -195,7 +195,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: "publications"
     values:
       layout: single
       read_time: false
@@ -205,7 +205,7 @@ defaults:
   # _technologies
   - scope:
       path: ""
-      type: technologies
+      type: "technologies"
     values:
       layout: single
       read_time: false
@@ -221,9 +221,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
