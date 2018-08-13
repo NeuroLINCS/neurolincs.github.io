@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.css" />
 
-    <link rel="stylesheet" href="axial.css" />
+<!--     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/awesomplete.css"> -->
+
+
+    <link rel="stylesheet" href="../assets/css/axial.css" />
 
     <style type="text/css">
         .tooltip {
@@ -36,7 +40,7 @@
 
     </style>
 
-    <title>ABCD1-knockout transcriptome</title>
+    <title>NeuroLINCS iMN proteome</title>
 
 </head>
 <body>
@@ -48,20 +52,19 @@
                 <div class="card">
                     <div class="card-header">
                         <a class="pull-right" role="button"><i class="fa" id="hide-show"></i></a>
-                        <h1><a href="index.html" class="link-unstyled">ABCD1-knockout transcriptome</a></h1>
+                        <h1><a href="index.html" class="link-unstyled">NeuroLINCS iMN transcriptome</a></h1>
                         <p><a id="enrich" href="#">Enrich DE genes</a> | <a id="degenes" href="#">Download DE genes</a></p>
 
                         <nav>
                             <div class="nav nav-tabs card-header-tabs" role="tablist">
-                                <a class="nav-item nav-link active">hBMEC</a>
-                                <a class="nav-item nav-link" href="mouse_volcano.html">mBMEC</a>
-                                <a class="nav-item nav-link" href="lee_volcano.html">Lee et. al. 2018 iPS</a>
+                                <a class="nav-item nav-link" href="transcriptomics_volcano.html">Transcriptomics</a>
+                                <a class="nav-item nav-link active">Proteomics</a>
                             </div>
                         </nav>
 
                     </div>
                     <div class="tab-content collapse show" id="collapsable">
-                        <div class="tab-pane fade show active card-body" id="hBMEC" role="tabpanel">
+                        <div class="tab-pane fade show active card-body" id="Proteomics" role="tabpanel">
 
                             <label for="point_size">Point Size</label>
                             <input type="range" id="point_size" name="" min="0.5" max="4" step="0.1" value="2.0" style="position: relative; top: 3px;">
@@ -98,7 +101,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
 
-    <script type="text/javascript" src="data/diff_proteins.js"></script>
+    <!-- <script type="text/javascript" src="../assets/js/jquery-3.2.1.slim.min.js" ></script>
+    <script type="text/javascript" src="../assets/js/popper.min.js" ></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="../assets/js/d3.v5.min.js"></script>
+    <script type="text/javascript" src="../assets/js/d3-legend.min.js"></script>
+    <script type="text/javascript" src="../assets/js/awesomplete.js"></script>
+    <script type="text/javascript" src="../assets/js/underscore.js"></script>
+ -->
+
+    <script type="text/javascript" src="diff_proteins.js"></script>
     <script type="text/javascript" src="volcano.js"></script>
     <script type="text/javascript" src="GOrilla.js"></script>
 

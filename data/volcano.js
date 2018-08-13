@@ -39,6 +39,7 @@ function Volcano(differential) {
     var data = Object.entries(differential).map(entry => Object.assign({'id':entry[0]}, entry[1]))
                                            .filter(entry => entry['logFC'] != null && entry['q'] != null);
 
+
     /////////////////////////////////////////////////////////////////////////////
                           ///////    Re-Draw Figure    ///////
     /////////////////////////////////////////////////////////////////////////////

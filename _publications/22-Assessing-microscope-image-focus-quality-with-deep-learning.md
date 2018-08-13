@@ -5,7 +5,7 @@ year: 2018
 author: Steve Finkbeiner
 authors: "Samuel J. Yang, Marc Berndl, D. Michael Ando, Mariya Barch, Arunachalam Narayanaswamy, Eric Christiansen, Stephan Hoyer, Chris Roat, Jane Hung, Curtis T. Rueden, Asim Shankar, Steven Finkbeiner and Philip Nelson"
 links:
-  - "[BMC Bioinformatics BMC series – open, inclusive and trusted201819:77](https://doi.org/10.1186/s12859-018-2087-4)"
+  - "[BMC Bioinformatics. 2018 Mar 15;19(1):77. doi: 10.1186/s12859-018-2087-4](https://doi.org/10.1186/s12859-018-2087-4)"
 ---
 
 

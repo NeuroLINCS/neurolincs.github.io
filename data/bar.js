@@ -19,8 +19,8 @@ function Bar(differential) {
     var animation_out_duration = 700;
     var animation_in_duration = 700;
 
-    var minLogFC = -6;
-    var maxLogFC = 6;
+    var minLogFC = -5;
+    var maxLogFC = 5;
 
     var low_color = "blue";
     var center_color = "white"

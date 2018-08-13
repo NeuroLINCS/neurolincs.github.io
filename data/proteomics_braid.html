@@ -10,89 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css" />
 
+    <link rel="stylesheet" href="../assets/css/axial.css" />
+
     <style type="text/css">
-        h1 { font-weight: 100; }
-        #graph-container {
-            transition: 0.4s transform ease-out;
-        }
-        .dark { background-color: #d8d8d8; }
-        .invert { filter: invert(100%); }
 
-        .menu {
-            max-width: 390px;
-            min-width: 390px;
-            transition: 0.4s transform ease-out;
-
-        }
-        .col-12 {
-            margin: 0px;
-            padding: 0px;
-        }
-        .card {
-            min-height: 100vh;
-            border-radius: 0;
-        }
-
-        .menu.hidden {
-            transform: translate(-330px);
-        }
-        .menu.hidden + #graph-container {
-            transform: translate(-330px);
-        }
-
-        .fa:before {
-            font-size: 2rem;
-            color: black;
-            content: "\f104";
-            position: relative;
-            transform: rotate(90deg);
-        }
-        .fa {
-            padding: 0.8rem;
-            transition: 0.4s transform ease-in-out;
-        }
-        .hidden .fa {
-            transform: rotate(180deg);
-        }
-
-        .awesomplete {
-            display: block !important;
-        }
-        .link-unstyled, .link-unstyled:link {
-            color: inherit;
-            text-decoration: inherit;
-        }
-        .link-unstyled:hover {
-            text-decoration: inherit;
-        }
-        label {
-            margin-bottom: 0px;
-        }
-        b {
-            font-weight: 600;
-        }
-        input[type="checkbox"] {
-            margin-right: 5px;
-            position: relative;
-            top: -2px;
-        }
-
-        input[type="range"] {
-            position: relative;
-            top: 3px;
-        }
-        input[type="radio"][disabled] + label {
-            opacity: 0.3;
-
-        }
-        [contenteditable=true]:empty:before {
-            content: attr(placeholder);
-            display: block; /* For Firefox */
-        }
 
     </style>
 
-    <title>ABCD1-knockout transcriptome</title>
+    <title>NeuroLINCS iMN proteome</title>
 
 </head>
 <body>
@@ -104,7 +29,7 @@
                 <div class="card">
                     <div class="card-header">
                         <a class="pull-right" role="button"><i class="fa" id="hide-show"></i></a>
-                        <h1><a href="index.html" class="link-unstyled">Braid Plot</a></h1>
+                        <h1><a href="index.html" class="link-unstyled">NeuroLINCS iMN Proteome</a></h1>
                         <p><a id="download" href="#">Download SVG</a></p>
 
                         <nav>
@@ -275,12 +200,12 @@
     <script type="text/javascript" src="braid.js"></script>
 
     <script type="text/javascript" src="protein.js"></script>
-    <script type="text/javascript" src="metadata.js"></script>
+    <script type="text/javascript" src="proteomic_classes.js"></script>
     <script type="text/javascript" src="human_gene_sets.js"></script>
 
     <script type="text/javascript">
 
-class_categories = _.uniq(_.flatten(Object.values(classes).map(obj => Object.keys(obj))));
+class_categories = _.uniq(_.flatten(Object.values(proteomic_classes).map(obj => Object.keys(obj))));
 if (class_categories.length === 0) { $(".form-check-input[value='class']").remove(); }
 else {
     class_categories.forEach(function(key) {
@@ -288,9 +213,9 @@ else {
     });
 }
 
-$("#minimum_nonzero").attr('max', Object.keys(human).length);
+$("#minimum_nonzero").attr('max', Object.keys(protein).length);
 
-braid = Braid(human, gene_sets, classes);
+braid = Braid(protein, human_gene_sets, proteomic_classes);
 
 
 let equal = (a1, a2) => a1.length === a2.length && a1.every((value, i) => value === a2[i]);
@@ -302,7 +227,7 @@ let equal = (a1, a2) => a1.length === a2.length && a1.every((value, i) => value 
 
 var chooseGeneSet = document.getElementById("chooseGeneSet");
 var chooseGeneSetform = new Awesomplete(chooseGeneSet, {
-    list: Object.entries(gene_sets),
+    list: Object.entries(human_gene_sets),
     maxItems: 30,
     replace: function (text) { this.input.value = text.label; }
 });
