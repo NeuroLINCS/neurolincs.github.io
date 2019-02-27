@@ -25,11 +25,11 @@ Amyotrophic lateral sclerosis (ALS) is a severe neurodegenerative condition char
 WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and protein respectively obtained from induced Pluripotent Stem Cell (iPSC) lines. These lines were derived from ALS, SMA and Control (unaffected) individuals.  Multiple levels of data and analysis including full information on the number of replicates are available at the links below.
 
 ### RNA-Seq
-- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1356)
 
 ### ATAC-Seq
-- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1354)
 
 ### Proteomics
@@ -44,11 +44,11 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 **iMN long differentiation protocol**
 
 ### RNA-Seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1398)
 
 ### ATAC-Seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets-beta/#/view/LDS-1400)
 
 ### Proteomics
@@ -64,11 +64,11 @@ WGS, RNA-Seq, ATAC-Seq and SWATH-MS were carried out on isolated mRNA, DNA and p
 **diMN short differentiation protocol - mature neurons**
 
 ### RNA-seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1499)
  
 ### ATAC-seq
-- [Raw Data -  dbGap](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)
+- [Raw Data -  dbGap](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)
 - [Processed Data – LINCS Data Portal](http://lincsportal.ccs.miami.edu/datasets/#/view/LDS-1501)
  
 ### Proteomics
