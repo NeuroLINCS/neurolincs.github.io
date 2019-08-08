@@ -1,3 +1,8 @@
+---
+layout: single
+permalink: /pipelines/
+---
+
 # NeuroLINCS Project  
 
 The NeuroLINCS Project is part of the NIH Common Fund's Library of Integrated Network-based Cellular Signatures (LINCS) program, which aims to characterize how a variety of human cells, tissues and entire organism respond to perturbations by drugs and other molecular factors.
