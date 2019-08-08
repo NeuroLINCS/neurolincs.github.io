@@ -5,7 +5,7 @@ As Part of the LINCS program, the NeuroLINCS study concentrates on human brain c
 
 ## Getting You Started
 
-Here are some information and videos that will help you get started using Galaxy and the NeuroLINCS pipelines. You can use these workflows/pipelines with your own data or rerun the NeuroLINCS Data found on dbGap and LINCSproject.org. Links to data provided below.
+Here are some information and videos that will help you get started using Galaxy and the NeuroLINCS pipelines. You can use these workflows/pipelines with your own data or rerun the NeuroLINCS Data found on [dbGap](https://www.ncbi.nlm.nih.gov/gap/) and [LINCSproject](http://www.lincsproject.org). Links to data provided below.
 
 ### Galaxy Resources
 
@@ -18,7 +18,7 @@ Here are some information and videos that will help you get started using Galaxy
 
 * [NeuroLINCS Website](http://neurolincs.org/)      NeuroLINCS website contains information on the project, including technologies, data, and tools developed and used by the team
 * [NeuroLINCS Data Summary](http://neurolincs.org/data/)        Data page on NeuroLINCS website showing summary of experiments and links to data
-* [NeuroLINCS Raw Data](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v1.p1)       The NCBI data base of Genotypes and Phenotypes study that hosts the NeuroLINCS raw data files for ATAC-Seq, RNA-Seq and whole genome sequences
+* [NeuroLINCS Raw Data](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1)       The NCBI data base of Genotypes and Phenotypes study that hosts the NeuroLINCS raw data files for ATAC-Seq, RNA-Seq and whole genome sequences
 * [NeuroLINCS Raw Protein Data](https://chorusproject.org/pages/authentication.html#/login)     Chorus Project site that hosts the raw data files for SWATH proteomic assay. Note, you need to sign into Chorus in order to access the files
 * [NeuroLINCS Processed Data](http://www.lincsproject.org/)     LINCSproject.org datasets for NeuroLINCS
 * Experiment 1:   ATAC-Seq, RNA-Seq and proteomics were carried out on samples obtained from induced Pluripotnent Stem Cells (iPSC) cell lines. These lines were derived from ALS, SMA and Control (unaffected) individuals (three of each). 
@@ -74,17 +74,12 @@ For more information regarding DESeq2, please visit this [page](https://biocondu
 
 The ATAC-seq experiment provides genome-wide profiles of chromatin accessibility. Briefly, the ATAC-seq method works as follows: loaded transposase inserts sequencing primers into open chromatin sites across the genome, and reads are then sequenced. The ends of the reads mark open chromatin sites. The ATAC-seq pipeline is used for statistical signal processing of short-read sequencing data and quality control, producing alignments and measures of enrichment. In its current form, it is a prototype and will likely undergo substantial change within the next year. 
 
+
 ### ATAC Pipeline
-
-Our ATAC pipeline takes in BAM files containing aligned reads and outputs peaks and peak annotations.
-
-The first step in the pipeline is to remove all reads mapped to mitochondrial DNA from the BAM file. Since we observe 30-60% mitochondrial contamination for NeuroLINCS samples, removing mitochondrial reads will remove considerable noise from downstream analysis. Afterward, peak calling is performed on BAM using MACS2 with the following parameters: --format BAM --gsize hs –qvalue .05. We have prepared a background bam file for MACS2 peak calling by extracting naked genomic DNA from iMNS, performing ATAC on the genomic DNA, and sequencing the resulting library. Peak annotation is performed using the script “map_peaks_to_known_genes.py” from the ChipSeqUtil package; we map genes to peaks within a window of +/- 10kb.  Bigwig files for the reads and BigBed files for the peaks are generated for visualization of data on a genome browser.
-
-### New ATAC Pipeline (Coming Soon!)
 
 Our ATAC pipeline takes in FASTQ files containing raw reads and outputs peaks and peak annotations.
 
-First, we trim the start and end of reads using Trimmomatic to remove bases with a Phred quality of less than 10. Removing low quality bases improves accuracy of alignment. We use Bowtie2 to align our trimmed reads to the hg19 genome using the default parameters. We then use SAMtools to remove multi mapped reads, reads aligned to mitochondrial DNA, and alignments will a mapping quality of less than 10. This filtering step removes noise from downstream analysis.  Afterward, peak calling is performed on BAM using MACS2 with the following parameters: --format BAM --gsize hs –qvalue .05. We have prepared a background bam file for MACS2 peak calling by extracting naked genomic DNA from iMNS, performing ATAC on the genomic DNA, and sequencing the resulting library. Peak annotation is performed using the script “map_peaks_to_known_genes.py” from the ChipSeqUtil package; we map genes to peaks within a window of +/- 10kb. Bigwig files for the reads and BigBed files for the peaks are generated for visualization of data on a genome browser.
+First, we trim the start and end of reads using Trimmomatic to remove bases with a Phred quality of less than 10. Removing low quality bases improves accuracy of alignment. We use Bowtie2 to align our trimmed reads to the hg38 genome using the default parameters. We then use SAMtools to remove multi mapped reads, reads aligned to mitochondrial DNA, and alignments will a mapping quality of less than 10. This filtering step removes noise from downstream analysis.  Afterward, peak calling is performed on BAM using MACS2 with the following parameters: --format BAM --gsize hs –qvalue .05. We have prepared a background bam file for MACS2 peak calling by extracting naked genomic DNA from iMNS, performing ATAC on the genomic DNA, and sequencing the resulting library. Peak annotation is performed using the script “map_peaks_to_known_genes.py” from the ChipSeqUtil package; we map genes to peaks within a window of +/- 10kb. Bigwig files for the reads and BigBed files for the peaks are generated for visualization of data on a genome browser.
 
 
 
