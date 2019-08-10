@@ -65,6 +65,211 @@ For more information on NeuroLINCS, click [here](http://neurolincs.org/)
 
 #### Step 1. Secondary Analysis
 
+<details>
+<summary>Galaxy Workflow | imported: fraenkel_ATAC_batch_experimental_paired (for in house usage)</summary>
+<br>
+<h4>Step 1: Input dataset collection</h4>
+<b>input</b>
+<i>select at runtime</i>
+<br> 
+<h4>Step 2: Input dataset</h4>
+<b>encode blacklist regions</b>
+<i>select at runtime</i>
+<br> 
+<h4>Step 3: Trimmomatic</h4>
+<br>
+<b>Single-end or paired-end reads?</b>
+<br>
+Paired-end (as collection)
+<br>
+<b>Select FASTQ dataset collection with R1/R2 pair</b>
+<br>
+Output dataset 'output' from step 1
+<br>
+<b>Perform initial ILLUMINACLIP step?</b>
+<br>
+False
+<br>
+<b>Trimmomatic Operations</b> 
+<br>
+<b>Trimmomatic Operation 1</b>
+<br>
+<b>Select Trimmomatic operation to perform</b>
+<br>
+Cut bases off the start of a read, if below a threshold quality (LEADING)
+<br>
+<b>Minimum quality required to keep a base</b>
+<br>
+15
+<br>
+<b>Trimmomatic Operation 2</b>
+<br>
+<b>Select Trimmomatic operation to perform</b>
+<br>
+Cut bases off the end of a read, if below a threshold quality (TRAILING)
+<br>
+<b>Minimum quality required to keep a base</b>
+<br>
+15
+<br>
+<br>
+<h4>Step 4: FastQC</h4>
+<br>
+<b>Short read data from your current history</b>
+<br>
+Output dataset 'fastq_out_paired' from step 3
+<br>
+<b>Contaminant list</b>
+<br>
+<i>select at runtime</i>
+<br>
+<b>Submodule and Limit specifing file</b>
+<br>
+<i>select at runtime</i>
+<br>
+<br>
+<h4>Step 5: Bowtie2</h4>
+<br>
+<b>Is this single or paired library</b>
+<br>
+Paired-end Dataset Collection
+<br>
+<b>FASTQ Paired Dataset</b>
+<br>
+Output dataset 'fastq_out_paired' from step 3
+<br>
+<b>Write unaligned reads (in fastq format) to separate file(s)</b>
+<br>
+False
+<br>
+<b>Write aligned reads (in fastq format) to separate file(s)</b>
+<br>
+False
+<br>
+<b>Do you want to set paired-end options?</b>
+<br>
+No
+<br>
+<b>Will you select a reference genome from your history or use a built-in index?</b>
+<br>
+Use a built-in genome index
+<br>
+<b>Select reference genome</b>
+<br>
+hg38
+<br>
+<b>Set read groups information?</b>
+<br>
+Do not set
+<br>
+<b>Select analysis mode</b>
+<br>
+1: Default setting only
+<br>
+<b>Do you want to use presets?</b>
+<br>
+No, just use defaults
+<br>
+<b>Save the bowtie2 mapping statistics to the history</b>
+<br>
+True
+<br>
+<br>
+<h4>Step 6: BAM filter</h4>
+<br>
+<b>Select BAM dataset</b>
+<br>
+Output dataset 'output' from step 5
+<br>
+<b>Remove reads that are smaller than</b>
+<br>
+Not available.
+<br>
+<b>Remove reads that are larger than</b>
+<br>
+Not available.
+<br>
+<b>Keep only mapped reads</b>
+<br>
+True
+<br>
+<b>Keep only unmapped reads</b>
+<br>
+False
+<br>
+<b>Keep only properly paired reads</b>
+<br>
+True
+<br>
+<b>Discard properly paired reads</b>
+<br>
+False
+<br>
+<b>Remove reads that match the mask</b>
+<br>
+Empty.
+<br>
+<b>Remove reads that have the same sequence</b>
+<br>
+-1
+<br>
+<b>Remove reads that start at the same position</b>
+<br>
+False
+<br>
+<b>Remove reads with that many mismatches</b>
+<br>
+Not available.
+<br>
+<b>Remove secondary alignment reads</b>
+<br>
+True
+<br>
+<b>Remove reads that do not pass the quality control</b>
+<br>
+False
+<br>
+<b>Remove reads that are marked as PCR dupicates</b>
+<br>
+False
+<br>
+<b>Remove reads that are in any of the regions</b>
+<br>
+select at runtime
+<br>
+<b>Remove reads that are NOT any of the regions</b>
+<br>
+select at runtime
+<br>
+<b>Strand information from BED file is ignored</b>
+<br>
+False
+<br>
+<b>Exclude reads NOT mapped to a reference</b>
+<br>
+Empty.
+<br>
+<b>Exclude reads mapped to a particular reference</b>
+<br>
+chrM
+<br>
+<b>Filter by maximum mismatch ratio</b>
+<br>
+Not available.
+<br>
+<br>
+<h4>Step 7: Sort</h4>
+<br>
+<b>BAM File</b>
+<br>
+Output dataset 'outfile' from step 6
+<br>
+<b>Sort by</b>
+<br>
+Chromosomal coordinates
+<br>
+<br>
+</details>
 
 #### Step 2. Statistical Analysis of gene expression
 
