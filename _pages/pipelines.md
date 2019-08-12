@@ -308,6 +308,7 @@ False
 &emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
 <br>
 <b>&emsp;Minimum quality required to keep a base</b>
+<br>
 &emsp;15
 <br>
 <b>&emsp;Trimmomatic Operation 2</b>
@@ -322,7 +323,7 @@ False
 <br>
 <br>
 </details>
-
+<br>
 For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 
 ## Web-based Pipeline For Assay for Transposase-Accessible Chromatin followed by sequencing (ATAC-Seq)
