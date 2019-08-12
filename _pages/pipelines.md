@@ -295,7 +295,7 @@ Single-end
 <br>
 Output dataset 'output' from step 1
 <br>
-<b>Perform initial ILLUMINACLIP step?<b> 
+<b>Perform initial ILLUMINACLIP step?</b> 
 <br>
 False
 <br>
