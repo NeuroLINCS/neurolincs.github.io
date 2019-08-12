@@ -268,6 +268,61 @@ Chromosomal coordinates
 
 This step uses DESeq2 standard workflow to test differential expression across two groups, e.g. control vs. ALS.
 
+<details>
+<summary>Galaxy Workflow | imported: fraenkel_ATAC_batch_experimental_single (for in house usage)</summary>
+<br>
+<h2>Step 1: Input dataset collection</h2>
+<b>Input FASTQs</b>
+<i>(select at runtime)
+<br>
+<br>
+<h2>Step 2: Input dataset</h2>
+<b>Naked DNA File</b>
+<i>(select at runtime)</i> 
+<br>
+<br> 
+<h2>Step 3: Input dataset</h2> 
+<b>encode blacklist regions</b>
+<i>(select at runtime)</i>
+<br>
+<br> 
+<h2>Step 4: Trimmomatic</h2>
+<b>Single-end or paired-end reads?</b>
+<br>
+Single-end
+<br>
+<b>Input FASTQ file</b>
+<br>
+Output dataset 'output' from step 1
+<br>
+<b>Perform initial ILLUMINACLIP step?<b> 
+<br>
+False
+<br>
+<b>Trimmomatic Operations</b>
+<br>
+<b>&emsp;Trimmomatic Operation 1</b>
+<br>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br>
+&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
+<br>
+<b>&emsp;Minimum quality required to keep a base</b>
+&emsp;15
+<br>
+<b>&emsp;Trimmomatic Operation 2</b>
+<br>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br>
+&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
+<br>
+<b>&emsp;Minimum quality required to keep a base</b>
+<br>
+&emsp;15
+<br>
+<br>
+</details>
+
 For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 
 ## Web-based Pipeline For Assay for Transposase-Accessible Chromatin followed by sequencing (ATAC-Seq)
