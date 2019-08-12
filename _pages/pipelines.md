@@ -68,16 +68,15 @@ For more information on NeuroLINCS, click [here](http://neurolincs.org/)
 <details>
 <summary>Galaxy Workflow | imported: fraenkel_ATAC_batch_experimental_paired (for in house usage)</summary>
 <br>
-<h4>Step 1: Input dataset collection</h4>
+<h2>Step 1: Input dataset collection</h2>
 <b>input</b>
-<i>select at runtime</i>
+<i>(select at runtime)</i>
 <br> 
-<h4>Step 2: Input dataset</h4>
+<h2>Step 2: Input dataset</h2>
 <b>encode blacklist regions</b>
-<i>select at runtime</i>
+<i>(select at runtime)</i>
 <br> 
-<h4>Step 3: Trimmomatic</h4>
-<br>
+<h2>Step 3: Trimmomatic</h2>
 <b>Single-end or paired-end reads?</b>
 <br>
 Paired-end (as collection)
@@ -113,7 +112,7 @@ Cut bases off the end of a read, if below a threshold quality (TRAILING)
 15
 <br>
 <br>
-<h4>Step 4: FastQC</h4>
+<h2>Step 4: FastQC</h2>
 <br>
 <b>Short read data from your current history</b>
 <br>
@@ -128,7 +127,7 @@ Output dataset 'fastq_out_paired' from step 3
 <i>select at runtime</i>
 <br>
 <br>
-<h4>Step 5: Bowtie2</h4>
+<h2>Step 5: Bowtie2</h2>
 <br>
 <b>Is this single or paired library</b>
 <br>
@@ -175,7 +174,7 @@ No, just use defaults
 True
 <br>
 <br>
-<h4>Step 6: BAM filter</h4>
+<h2>Step 6: BAM filter</h2>
 <br>
 <b>Select BAM dataset</b>
 <br>
@@ -258,7 +257,7 @@ chrM
 Not available.
 <br>
 <br>
-<h4>Step 7: Sort</h4>
+<h2>Step 7: Sort</h2>
 <br>
 <b>BAM File</b>
 <br>
@@ -290,6 +289,8 @@ The ATAC-seq experiment provides genome-wide profiles of chromatin accessibility
 Our ATAC pipeline takes in FASTQ files containing raw reads and outputs peaks and peak annotations.
 
 First, we trim the start and end of reads using Trimmomatic to remove bases with a Phred quality of less than 10. Removing low quality bases improves accuracy of alignment. We use Bowtie2 to align our trimmed reads to the hg38 genome using the default parameters. We then use SAMtools to remove multi mapped reads, reads aligned to mitochondrial DNA, and alignments will a mapping quality of less than 10. This filtering step removes noise from downstream analysis.  Afterward, peak calling is performed on BAM using MACS2 with the following parameters: --format BAM --gsize hs –qvalue .05. We have prepared a background bam file for MACS2 peak calling by extracting naked genomic DNA from iMNS, performing ATAC on the genomic DNA, and sequencing the resulting library. Peak annotation is performed using the script “map_peaks_to_known_genes.py” from the ChipSeqUtil package; we map genes to peaks within a window of +/- 10kb. Bigwig files for the reads and BigBed files for the peaks are generated for visualization of data on a genome browser.
+
+
 
 
 
