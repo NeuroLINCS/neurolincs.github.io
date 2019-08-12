@@ -91,44 +91,40 @@ False
 <br>
 <b>Trimmomatic Operations</b> 
 <br>
-<b>Trimmomatic Operation 1</b>
+<b>&emsp;Trimmomatic Operation 1</b>
 <br>
-<b>Select Trimmomatic operation to perform</b>
+<b>&emsp;Select Trimmomatic operation to perform</b>
 <br>
-Cut bases off the start of a read, if below a threshold quality (LEADING)
+&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
 <br>
-<b>Minimum quality required to keep a base</b>
+<b>&emsp;Minimum quality required to keep a base</b>
 <br>
-15
+&emsp;15
 <br>
-<b>Trimmomatic Operation 2</b>
+<b>&emsp;Trimmomatic Operation 2</b>
 <br>
-<b>Select Trimmomatic operation to perform</b>
+<b>&emsp;Select Trimmomatic operation to perform</b>
 <br>
-Cut bases off the end of a read, if below a threshold quality (TRAILING)
+&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
 <br>
-<b>Minimum quality required to keep a base</b>
+<b>&emsp;Minimum quality required to keep a base</b>
 <br>
-15
+&emsp;15
 <br>
 <br>
 <h2>Step 4: FastQC</h2>
-<br>
 <b>Short read data from your current history</b>
 <br>
 Output dataset 'fastq_out_paired' from step 3
 <br>
 <b>Contaminant list</b>
-<br>
-<i>select at runtime</i>
+<i>(select at runtime)</i>
 <br>
 <b>Submodule and Limit specifing file</b>
-<br>
-<i>select at runtime</i>
+<i>(select at runtime)</i>
 <br>
 <br>
 <h2>Step 5: Bowtie2</h2>
-<br>
 <b>Is this single or paired library</b>
 <br>
 Paired-end Dataset Collection
@@ -175,7 +171,6 @@ True
 <br>
 <br>
 <h2>Step 6: BAM filter</h2>
-<br>
 <b>Select BAM dataset</b>
 <br>
 Output dataset 'output' from step 5
@@ -258,7 +253,6 @@ Not available.
 <br>
 <br>
 <h2>Step 7: Sort</h2>
-<br>
 <b>BAM File</b>
 <br>
 Output dataset 'outfile' from step 6
