@@ -273,7 +273,7 @@ This step uses DESeq2 standard workflow to test differential expression across t
 <br>
 <h2>Step 1: Input dataset collection</h2>
 <b>Input FASTQs</b>
-<i>(select at runtime)
+<i>(select at runtime)</i>
 <br>
 <br>
 <h2>Step 2: Input dataset</h2>
