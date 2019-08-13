@@ -262,6 +262,223 @@ Output dataset 'outfile' from step 6
 Chromosomal coordinates
 <br>
 <br>
+<h2>Step 8: MarkDuplicates</h2>
+<b>Select SAM/BAM dataset or dataset collection</b>
+<br> 
+Output dataset 'output1' from step 7
+<br> 
+<b>Comments</b> 
+<br> 
+<b>If true do not write duplicates to the output file instead of writing them with appropriate flags set</b>
+<br>
+True
+<br>
+<b>Assume the input file is already sorted</b> 
+True
+<br>
+<b>The scoring strategy for choosing the non-duplicate among candidates</b>
+<br>
+SUM_OF_BASE_QUALITIES
+<br> 
+<b>Regular expression that can be used in unusual situations to parse non-standard read names in the incoming SAM/BAM dataset</b> 
+<br>
+[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).*.
+<br> 
+<b>The maximum offset between two duplicte clusters in order to consider them optical duplicates</b>
+<br>
+100
+<br> 
+<b>Barcode Tag</b> 
+<br> 
+Empty.
+<b>Select validation stringency</b> 
+<br> 
+Lenient
+<br> 
+<br> 
+<h2>Step 9: bamCoverage</h2> 
+<b>BAM/CRAM file</b> 
+<br> 
+Output dataset 'outFile' from step 8
+<br> 
+<b>Bin size in bases</b> 
+<br> 
+50 
+<br> 
+<b>Scaling/Normalization method</b> 
+<br> 
+Normalize to reads per kilobase per million (RPKM)
+<br> 
+<b>Coverage file format</b> 
+<br> 
+bigwig
+<br> 
+<b>Region of the genome to limit the operation to</b> 
+<br> 
+Empty.
+<br> 
+<b>Show advanced options</b> 
+<br> 
+no
+<br> 
+<br> 
+<h2>Step 10: MACS2 callpeak</h2> 
+<b>Are you pooling Treatment Files?</b> 
+<br> 
+No
+<br> 
+<b>ChIP-Seq Treatment File</b> 
+<br> 
+<i> select at runtime</i> 
+<br> 
+<b>Do you have a Control File?</b> 
+<br> 
+No
+<br> 
+<b>Format of Input Files</b> 
+<br> 
+BAM 
+<br> 
+<b>Effective genome size</b> 
+<br> 
+H. sapiens (2.9e9)
+<br> 
+<b>Build Model</b> 
+<br> 
+Build the shifting model
+<br> 
+<b>Set lower mfold bound</b> 
+<br> 
+5
+<br> 
+<b>Set upper mfold bound</b> 
+<br> 
+50
+<br> 
+<b>Band width for picking regions to compute fragment size</b> 
+<br> 
+300
+<br> 
+<b>Peak detection based on</b> 
+<br> 
+q-value
+<br> 
+<b>Minimum FDR (q-value) cutoff for peak detection</b> 
+<br> 
+0.05
+<br> 
+<b>Additional Outputs</b> 
+<br> 
+Peaks as tabular file (compatible wih MultiQC)
+<br> 
+<b>Advanced Options:</b>
+<br>
+<b>&emsp;When set, scale the small sample up to the bigger sample</b>
+&emsp;False
+<b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
+&emsp;False
+<b>&emsp;Save signal per million reads for fragment pileup profiles</b>
+&emsp;False
+<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
+&emsp;1.0
+<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b>
+&emsp;1000
+<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b>
+&emsp;10000
+<b>&emsp;Composite broad regions</b>
+&emsp;No broad regions
+<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
+&emsp;False
+<b>&emsp;How many duplicate tags at the exact same location are allowed?</b>
+&emsp;1
+<br>
+<br>
+<h2>Step 11: multiBigwigSummary</h2>
+<br>
+<b>Sample order matters</b>
+<br>
+No
+<br>
+<b>Bigwig files</b>
+<br>
+Output dataset 'outFileName' from step 9
+<br>
+<b>Choose computation mode</b>
+<br>
+Bins
+<br>
+<b>Bin size in bp</b>
+<br>
+10000
+<br>
+<b>Distance between bins</b>
+<br>
+0
+<br>
+<b>Region of the genome to limit the operation to</b>
+<br>
+Empty.
+<br>
+<b>Save raw counts (scores) to file</b>
+<br>
+True
+<br>
+<b>Show advanced options</b>
+<br>
+no
+<br>
+<br>
+<h2>Step 12: Intersect intervals</h2>
+<b>File A to intersect with B</b>
+<br>
+Output dataset 'output_narrowpeaks' from step 10
+<br>
+<b>Combined or separate output files</b>
+<br>
+One output file per 'input B' file
+<br>
+<b>File(s) B to intersect with A</b>
+<br>
+<i>select at runtime</i>
+<br>
+<b>Calculation based on strandedness?</b>
+<br>
+Overlaps on either strand
+<br>
+<b>What should be written to the output file?</b>
+<br>
+Write the original entry in A for each overlap (-wa)
+<br>
+<b>Treat split/spliced BAM or BED12 entries as distinct BED intervals when computing coverage.</b>
+<br>
+False
+<br>
+<b>Minimum overlap required as a fraction of the BAM alignment</b>
+<br>
+Empty.
+<br>
+<b>Require that the fraction of overlap be reciprocal for A and B</b>
+<br>
+False
+<br>
+<b>Report only those alignments that **do not** overlap with file(s) B</b>
+<br>
+True
+<br>
+<b>Write the original A entry _once_ if _any_ overlaps found in B.</b>
+<br>
+False
+<br>
+<b>For each entry in A, report the number of overlaps with B.</b>
+<br>
+False
+<br>
+<b>Print the header from the A file prior to results</b>
+<br>
+False
+<br>
+<br>
+
 </details>
 
 #### Step 2. Statistical Analysis of gene expression
