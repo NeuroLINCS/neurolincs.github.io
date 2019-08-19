@@ -388,6 +388,7 @@ Peaks as tabular file (compatible wih MultiQC)
 <b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
 <br>
 &emsp;False
+<br>
 <b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
 <br>
 &emsp;False
@@ -1174,7 +1175,6 @@ no
 <br> 
 <br> 
 <h2>Step 14: plotCorrelation</h2> 
-<br> 
 <b>Matrix file from the multiBamSummary tool</b> 
 <br> 
 Output dataset 'outFile' from step 11
@@ -1713,6 +1713,7 @@ Peaks as tabular file (compatible wih MultiQC)
 <b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
 <br>
 &emsp;False
+<br>
 <b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
 <br>
 &emsp;False
