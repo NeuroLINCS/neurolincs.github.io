@@ -17,7 +17,7 @@ Here are some information and videos that will help you get started using Galaxy
 | - | - | 
 | [Introduction To Galaxy](https://vimeo.com/131811884) | Learn what Galaxy is and how you can use it | 
 | [Learning Resources](https://vimeo.com/channels/usegalaxy/75940376)| A collection of videos to help you learn how |
-| [Get Data: Upload File](https://vimeo.com/galaxyproject/videos/all/search:get%20data/sort:date) | How to upload your Data | 
+| [Get Data: Upload File](https://vimeo.com/75938324) | How to upload your Data | 
 | [Upload Data From SRA](https://galaxyproject.org/tutorials/upload/) | How to upload data from SRA | 
 
 ### NeuroLINCS Data Links
@@ -96,17 +96,24 @@ False
 <br>
 <b>Trimmomatic Operations</b> 
 <br>
-> <b>Trimmomatic Operation 1</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the start of a read, if below a threshold quality (LEADING)
-> <b>Minimum quality required to keep a base</b>
-> 15
-> 
-> <b>Trimmomatic Operation 2</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the end of a read, if below a threshold quality (TRAILING)
-> <b>Minimum quality required to keep a base</b>
-> 15
+<b>Trimmomatic Operation 1</b>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br> 
+&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
+<br> 
+<b>&emsp;Minimum quality required to keep a base</b>
+<br> 
+&emsp;15
+<br> 
+<b>&emsp;Trimmomatic Operation 2</b>
+<br> 
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br> 
+&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
+<br> 
+<b>&emsp;Minimum quality required to keep a base</b>
+<br> 
+&emsp;15
 <br>
 <br>
 <h2>Step 4: FastQC</h2>
@@ -273,6 +280,7 @@ Output dataset 'output1' from step 7
 True
 <br>
 <b>Assume the input file is already sorted</b> 
+<br>
 True
 <br>
 <b>The scoring strategy for choosing the non-duplicate among candidates</b>
@@ -290,6 +298,7 @@ SUM_OF_BASE_QUALITIES
 <b>Barcode Tag</b> 
 <br> 
 Empty.
+<br>
 <b>Select validation stringency</b> 
 <br> 
 Lenient
@@ -372,28 +381,43 @@ Peaks as tabular file (compatible wih MultiQC)
 <br> 
 <b>Advanced Options:</b>
 <br>
-> <b>When set, scale the small sample up to the bigger sample</b>
-> False
-> <b>Use fixed background lambda as local lambda for every peak region</b>
-> False
-> <b>Save signal per million reads for fragment pileup profiles</b> 
-> False
-> <b>When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
-> 1.0
-> <b>The small nearby region in basepairs to calculate dynamic lambda</b>
-> 1000
-> <b>The large nearby region in basepairs to calculate dynamic lambda</b>
-> 10000
-> <b>Composite broad regions</b>
-> No broad regions
-> <b>Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
-> False
-> <b>How many duplicate tags at the exact same location are allowed?</b>
-> 1
+<b>&emsp;When set, scale the small sample up to the bigger sample</b>
+<br>
+&emsp;False
+<br>
+<b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
+<br>
+&emsp;False
+<b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
+<br>
+&emsp;False
+<br>
+<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
+<br>
+&emsp;1.0
+<br>
+<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b>
+<br>
+&emsp;1000
+<br>
+<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b>
+<br>
+&emsp;10000
+<br>
+<b>&emsp;Composite broad regions</b>
+<br>
+&emsp;No broad regions
+<br>
+<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
+<br>
+&emsp;False
+<br>
+<b>&emsp;How many duplicate tags at the exact same location are allowed?</b>
+<br>
+&emsp;1
 <br>
 <br>
 <h2>Step 11: multiBigwigSummary</h2>
-<br>
 <b>Sample order matters</b>
 <br>
 No
@@ -580,18 +604,24 @@ False
 <br> 
 <h2>Step 16: computeMatrix</h2> 
 <b>Select regions</b> 
-> <b>Select regions 1</b> 
-> <b>Regions to plot</b> 
-> Output dataset 'output' from step 12
+<br>
+<b>&emsp;Select regions 1</b> 
+<br>
+<b>&emsp;Regions to plot</b> 
+<br>
+&emsp;Output dataset 'output' from step 12
 <br> 
 <b>Sample order matters</b> 
 <br> 
 Yes 
 <br> 
 <b>Score files</b> 
-> <b>Score files 1</b> 
-> <b>Score file</b> 
-> Output dataset 'outFileName' from step 9
+<br>
+<b>&emsp;Score files 1</b> 
+<br>
+<b>&emsp;Score file</b> 
+<br>
+&emsp;Output dataset 'outFileName' from step 9
 <br> 
 <b>computeMatrix has two main output options</b> 
 <br> 
@@ -736,16 +766,25 @@ False
 <br>
 <b>Trimmomatic Operations</b>
 <br>
-> <b>Trimmomatic Operation 1</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the start of a read, if below a threshold quality (LEADING)
-> <b>Minimum quality required to keep a base</b>
-> 15
-> <b>Trimmomatic Operation 2</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the end of a read, if below a threshold quality (TRAILING)
-> <b>Minimum quality required to keep a base</b>
-> 15
+<b>&emsp;Trimmomatic Operation 1</b>
+<br>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br>
+&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
+<br>
+<b>&emsp;Minimum quality required to keep a base</b>
+<br>
+&emsp;15
+<br>
+<b>&emsp;Trimmomatic Operation 2</b>
+<br>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br>
+&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
+<br>
+&emsp;<b>Minimum quality required to keep a base</b>
+<br>
+&emsp;15
 <br>
 <br>
 <h2>Step 5: Bowtie2</h2> 
@@ -991,24 +1030,41 @@ Peaks as tabular file (compatible wih MultiQC) Peak summits Scores in bedGraph f
 <br> 
 <b>Advanced Options:</b> 
 <br> 
-> <b>When set, scale the small sample up to the bigger sample</b> 
-> False 
-> <b>Use fixed background lambda as local lambda for every peak region</b> 
-> False 
-> <b>Save signal per million reads for fragment pileup profiles</b> 
-> False 
-> <b>When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b> 
-> 1.0 
-> <b>The small nearby region in basepairs to calculate dynamic lambda</b> 
-> 1000 
-> <b>The large nearby region in basepairs to calculate dynamic lambda</b> 
-> 10000 
-> <b>Composite broad regions</b> 
-> No broad regions
-> <b>Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b> 
-> True 
-> <b>How many duplicate tags at the exact same location are allowed?</b> 
-> 1
+<b>&emsp;When set, scale the small sample up to the bigger sample</b> 
+<br>
+&emsp;False 
+<br>
+<b>&emsp;Use fixed background lambda as local lambda for every peak region</b> 
+<br>
+&emsp;False 
+<br>
+<b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
+<br>
+&emsp;False 
+<br>
+<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b> 
+<br>
+&emsp;1.0 
+<br>
+<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b> 
+<br>
+&emsp;1000 
+<br>
+<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b> 
+<br>
+&emsp;10000 
+<br>
+<b>&emsp;Composite broad regions</b> 
+<br>
+&emsp;No broad regions
+<br>
+<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b> 
+<br>
+&emsp;True 
+<br>
+<b>&emsp;How many duplicate tags at the exact same location are allowed?</b> 
+<br>
+&emsp;1
 <br> 
 <br> 
 <h2>Step 11: multiBigwigSummary</h2> 
@@ -1201,9 +1257,11 @@ False
 <h2>Step 16: computeMatrix</h2> 
 <b>Select regions</b> 
 <br> 
-> <b>Select regions 1</b>
-> <b>Regions to plot</b> 
-> Output dataset 'output' from step 12
+<b>&emsp;Select regions 1</b>
+<br>
+<b>&emsp;Regions to plot</b> 
+<br>
+&emsp;Output dataset 'output' from step 12
 <br> 
 <b>Sample order matters</b> 
 <br> 
@@ -1211,9 +1269,11 @@ Yes
 <br> 
 <b>Score files</b> 
 <br> 
-> <b>Score files 1</b> 
-> <b>Score file</b> 
-> Output dataset 'outFileName' from step 9
+<b>&emsp;Score files 1</b> 
+<br>
+<b>&emsp;Score file</b> 
+<br>
+&emsp;Output dataset 'outFileName' from step 9
 <br> 
 <b>computeMatrix has two main output options</b> 
 <br> 
@@ -1318,7 +1378,7 @@ no
 no 
 </details>
 <br>
-For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html). 
 
 ## Web-based Pipeline For Assay for Transposase-Accessible Chromatin followed by sequencing (ATAC-Seq)
 *NeuroLINCs Epigenomics Center, MIT*
@@ -1361,17 +1421,24 @@ False
 <br>
 <b>Trimmomatic Operations</b> 
 <br>
-> <b>Trimmomatic Operation 1</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the start of a read, if below a threshold quality (LEADING)
-> <b>Minimum quality required to keep a base</b>
-> 15
-> 
-> <b>Trimmomatic Operation 2</b>
-> <b>Select Trimmomatic operation to perform</b>
-> Cut bases off the end of a read, if below a threshold quality (TRAILING)
-> <b>Minimum quality required to keep a base</b>
-> 15
+<b>Trimmomatic Operation 1</b>
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br> 
+&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
+<br> 
+<b>&emsp;Minimum quality required to keep a base</b>
+<br> 
+&emsp;15
+<br> 
+<b>&emsp;Trimmomatic Operation 2</b>
+<br> 
+<b>&emsp;Select Trimmomatic operation to perform</b>
+<br> 
+&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
+<br> 
+<b>&emsp;Minimum quality required to keep a base</b>
+<br> 
+&emsp;15
 <br>
 <br>
 <h2>Step 4: FastQC</h2>
@@ -1538,6 +1605,7 @@ Output dataset 'output1' from step 7
 True
 <br>
 <b>Assume the input file is already sorted</b> 
+<br>
 True
 <br>
 <b>The scoring strategy for choosing the non-duplicate among candidates</b>
@@ -1555,6 +1623,7 @@ SUM_OF_BASE_QUALITIES
 <b>Barcode Tag</b> 
 <br> 
 Empty.
+<br>
 <b>Select validation stringency</b> 
 <br> 
 Lenient
@@ -1637,28 +1706,43 @@ Peaks as tabular file (compatible wih MultiQC)
 <br> 
 <b>Advanced Options:</b>
 <br>
-> <b>When set, scale the small sample up to the bigger sample</b>
-> False
-> <b>Use fixed background lambda as local lambda for every peak region</b>
-> False
-> <b>Save signal per million reads for fragment pileup profiles</b> 
-> False
-> <b>When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
-> 1.0
-> <b>The small nearby region in basepairs to calculate dynamic lambda</b>
-> 1000
-> <b>The large nearby region in basepairs to calculate dynamic lambda</b>
-> 10000
-> <b>Composite broad regions</b>
-> No broad regions
-> <b>Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
-> False
-> <b>How many duplicate tags at the exact same location are allowed?</b>
-> 1
+<b>&emsp;When set, scale the small sample up to the bigger sample</b>
+<br>
+&emsp;False
+<br>
+<b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
+<br>
+&emsp;False
+<b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
+<br>
+&emsp;False
+<br>
+<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
+<br>
+&emsp;1.0
+<br>
+<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b>
+<br>
+&emsp;1000
+<br>
+<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b>
+<br>
+&emsp;10000
+<br>
+<b>&emsp;Composite broad regions</b>
+<br>
+&emsp;No broad regions
+<br>
+<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
+<br>
+&emsp;False
+<br>
+<b>&emsp;How many duplicate tags at the exact same location are allowed?</b>
+<br>
+&emsp;1
 <br>
 <br>
 <h2>Step 11: multiBigwigSummary</h2>
-<br>
 <b>Sample order matters</b>
 <br>
 No
@@ -1845,18 +1929,24 @@ False
 <br> 
 <h2>Step 16: computeMatrix</h2> 
 <b>Select regions</b> 
-> <b>Select regions 1</b> 
-> <b>Regions to plot</b> 
-> Output dataset 'output' from step 12
+<br>
+<b>&emsp;Select regions 1</b> 
+<br>
+<b>&emsp;Regions to plot</b> 
+<br>
+&emsp;Output dataset 'output' from step 12
 <br> 
 <b>Sample order matters</b> 
 <br> 
 Yes 
 <br> 
 <b>Score files</b> 
-> <b>Score files 1</b> 
-> <b>Score file</b> 
-> Output dataset 'outFileName' from step 9
+<br>
+<b>&emsp;Score files 1</b> 
+<br>
+<b>&emsp;Score file</b> 
+<br>
+&emsp;Output dataset 'outFileName' from step 9
 <br> 
 <b>computeMatrix has two main output options</b> 
 <br> 
@@ -1959,7 +2049,7 @@ no
 <b>Show advanced options</b> 
 <br> 
 no 
-</details> 
+</details>
 
 ### New ATAC Pipeline (Coming Soon!)
 
