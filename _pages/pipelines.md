@@ -2052,11 +2052,7 @@ no
 no 
 </details>
 
-### New ATAC Pipeline (Coming Soon!)
 
-Our ATAC pipeline takes in FASTQ files containing raw reads and outputs peaks and peak annotations.
-
-First, we trim the start and end of reads using Trimmomatic to remove bases with a Phred quality of less than 10. Removing low quality bases improves accuracy of alignment. We use Bowtie2 to align our trimmed reads to the hg19 genome using the default parameters. We then use SAMtools to remove multi mapped reads, reads aligned to mitochondrial DNA, and alignments will a mapping quality of less than 10. This filtering step removes noise from downstream analysis.  Afterward, peak calling is performed on BAM using MACS2 with the following parameters: --format BAM --gsize hs –qvalue .05. We have prepared a background bam file for MACS2 peak calling by extracting naked genomic DNA from iMNS, performing ATAC on the genomic DNA, and sequencing the resulting library. Peak annotation is performed using the script “map_peaks_to_known_genes.py” from the ChipSeqUtil package; we map genes to peaks within a window of +/- 10kb. Bigwig files for the reads and BigBed files for the peaks are generated for visualization of data on a genome browser.
 
 
 
