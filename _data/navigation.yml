@@ -23,3 +23,6 @@ main:
 
   - title: "Contact"
     url: /contact/
+  
+  - title: "Pipelines" 
+    url: /pipelines/
