@@ -69,662 +69,129 @@ For more information on NeuroLINCS, click [here](http://neurolincs.org/).
 #### Step 1. Secondary Analysis
 
 <details>
-<summary>Galaxy Workflow | imported: fraenkel_ATAC_batch_experimental_paired (for in house usage)</summary>
+<summary>Galaxy Workflow '(1 -> 2) - RNAseq_batch'</summary>
 <br>
 <h2>Step 1: Input dataset collection</h2>
-<b>input</b>
-<br>
-<i>select at runtime</i>
+<b>input</b> 
 <br> 
-<h2>Step 2: Input dataset</h2>
-<b>encode blacklist regions</b>
+<i>select at runtime</i> 
 <br>
-<i>select at runtime</i>
 <br> 
-<h2>Step 3: Trimmomatic</h2>
+<h2>Step 2: FastQC</h2>
+<b>Short read data from your current history</b>
+<br>
+Output dataset 'output' from step 1
+<br> 
+<b>Contaminant list</b> 
+<br> 
+<i>select at runtime</i>
+<br>
+<b>Submodule and Limit specifing file</b> 
+<br> 
+<i>select at runtime</i> 
+<br>
+<br>
+<h2>Step 3: Trimmomatic</h2> 
 <b>Single-end or paired-end reads?</b>
 <br>
 Paired-end (as collection)
-<br>
-<b>Select FASTQ dataset collection with R1/R2 pair</b>
-<br>
+<br> 
+<b>Select FASTQ dataset collection with R1/R2 pair</b> 
+<br> 
 Output dataset 'output' from step 1
-<br>
-<b>Perform initial ILLUMINACLIP step?</b>
-<br>
+<br> 
+<b>Perform initial ILLUMINACLIP step?</b> 
+<br> 
 False
-<br>
+<br> 
 <b>Trimmomatic Operations</b> 
-<br>
-<b>Trimmomatic Operation 1</b>
-<b>&emsp;Select Trimmomatic operation to perform</b>
 <br> 
-&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
+<b>&emsp;Trimmomatic Operation 1</b> 
 <br> 
-<b>&emsp;Minimum quality required to keep a base</b>
-<br> 
-&emsp;15
-<br> 
-<b>&emsp;Trimmomatic Operation 2</b>
-<br> 
-<b>&emsp;Select Trimmomatic operation to perform</b>
+<b>&emsp;Select Trimmomatic operation to perform</b> 
 <br> 
 &emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
 <br> 
-<b>&emsp;Minimum quality required to keep a base</b>
+<b>&emsp;Minimum quality required to keep a base</b> 
 <br> 
-&emsp;15
-<br>
-<br>
-<h2>Step 4: FastQC</h2>
-<b>Short read data from your current history</b>
-<br>
+&emsp;10
+<br> 
+<b>&emsp;Trimmomatic Operation 2</b>
+<br> 
+<b>&emsp;Select Trimmomatic operation to perform</b> 
+<br> 
+&emsp;Drop reads below a specified length (MINLEN)
+<br> 
+<b>&emsp;Minimum length of reads to be kept</b> 
+<br> 
+&emsp;20
+<br> 
+<br> 
+<h2>Step 4: HISAT2</h2> 
+<b>Source for the reference genome</b> 
+<br> 
+Use a built-in genome
+<br> 
+<b>Select a reference genome</b> 
+<br> 
+hg38
+<br> 
+<b>Single-end or paired-end reads?</b> 
+<br> 
+Paired-end Collection
+<br> 
+<b>Paired Collection</b> 
+<br> 
 Output dataset 'fastq_out_paired' from step 3
-<br>
-<b>Contaminant list</b>
-<br>
-<i>select at runtime</i>
-<br>
-<b>Submodule and Limit specifing file</b>
-<br>
-<i>select at runtime</i>
-<br>
-<br>
-<h2>Step 5: Bowtie2</h2>
-<b>Is this single or paired library</b>
-<br>
-Paired-end Dataset Collection
-<br>
-<b>FASTQ Paired Dataset</b>
-<br>
-Output dataset 'fastq_out_paired' from step 3
-<br>
-<b>Write unaligned reads (in fastq format) to separate file(s)</b>
-<br>
-False
-<br>
-<b>Write aligned reads (in fastq format) to separate file(s)</b>
-<br>
-False
-<br>
-<b>Do you want to set paired-end options?</b>
-<br>
-No
-<br>
-<b>Will you select a reference genome from your history or use a built-in index?</b>
-<br>
-Use a built-in genome index
-<br>
-<b>Select reference genome</b>
-<br>
-hg19
-<br>
-<b>Set read groups information?</b>
-<br>
-Do not set
-<br>
-<b>Select analysis mode</b>
-<br>
-1: Default setting only
-<br>
-<b>Do you want to use presets?</b>
-<br>
-No, just use defaults
-<br>
-<b>Save the bowtie2 mapping statistics to the history</b>
-<br>
-True
-<br>
-<br>
-<h2>Step 6: BAM filter</h2>
-<b>Select BAM dataset</b>
-<br>
-Output dataset 'output' from step 5
-<br>
-<b>Remove reads that are smaller than</b>
-<br>
-Not available.
-<br>
-<b>Remove reads that are larger than</b>
-<br>
-Not available.
-<br>
-<b>Keep only mapped reads</b>
-<br>
-True
-<br>
-<b>Keep only unmapped reads</b>
-<br>
-False
-<br>
-<b>Keep only properly paired reads</b>
-<br>
-True
-<br>
-<b>Discard properly paired reads</b>
-<br>
-False
-<br>
-<b>Remove reads that match the mask</b>
-<br>
-Empty.
-<br>
-<b>Remove reads that have the same sequence</b>
-<br>
--1
-<br>
-<b>Remove reads that start at the same position</b>
-<br>
-False
-<br>
-<b>Remove reads with that many mismatches</b>
-<br>
-Not available.
-<br>
-<b>Remove secondary alignment reads</b>
-<br>
-True
-<br>
-<b>Remove reads that do not pass the quality control</b>
-<br>
-False
-<br>
-<b>Remove reads that are marked as PCR dupicates</b>
-<br>
-False
-<br>
-<b>Remove reads that are in any of the regions</b>
-<br>
-<i>select at runtime</i>
-<br>
-<b>Remove reads that are NOT any of the regions</b>
-<br>
-<i>select at runtime</i>
-<br>
-<b>Strand information from BED file is ignored</b>
-<br>
-False
-<br>
-<b>Exclude reads NOT mapped to a reference</b>
-<br>
-Empty.
-<br>
-<b>Exclude reads mapped to a particular reference</b>
-<br>
-chrM
-<br>
-<b>Filter by maximum mismatch ratio</b>
-<br>
-Not available.
-<br>
-<br>
-<h2>Step 7: Sort</h2>
-<b>BAM File</b>
-<br>
-Output dataset 'outfile' from step 6
-<br>
-<b>Sort by</b>
-<br>
-Chromosomal coordinates
-<br>
-<br>
-<h2>Step 8: MarkDuplicates</h2>
-<b>Select SAM/BAM dataset or dataset collection</b>
-<br> 
-Output dataset 'output1' from step 7
-<br> 
-<b>Comments</b> 
-<br> 
-<b>If true do not write duplicates to the output file instead of writing them with appropriate flags set</b>
-<br>
-True
-<br>
-<b>Assume the input file is already sorted</b> 
-<br>
-True
-<br>
-<b>The scoring strategy for choosing the non-duplicate among candidates</b>
-<br>
-SUM_OF_BASE_QUALITIES
-<br> 
-<b>Regular expression that can be used in unusual situations to parse non-standard read names in the incoming SAM/BAM dataset</b> 
-<br>
-[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).*.
-<br> 
-<b>The maximum offset between two duplicte clusters in order to consider them optical duplicates</b>
-<br>
-100
-<br> 
-<b>Barcode Tag</b> 
-<br> 
-Empty.
-<br>
-<b>Select validation stringency</b> 
-<br> 
-Lenient
-<br> 
-<br> 
-<h2>Step 9: bamCoverage</h2> 
-<b>BAM/CRAM file</b> 
-<br> 
-Output dataset 'outFile' from step 8
-<br> 
-<b>Bin size in bases</b> 
-<br> 
-50 
-<br> 
-<b>Scaling/Normalization method</b> 
-<br> 
-Normalize to reads per kilobase per million (RPKM)
-<br> 
-<b>Coverage file format</b> 
-<br> 
-bigwig
-<br> 
-<b>Region of the genome to limit the operation to</b> 
-<br> 
-Empty.
-<br> 
-<b>Show advanced options</b> 
-<br> 
-no
-<br> 
-<br> 
-<h2>Step 10: MACS2 callpeak</h2> 
-<b>Are you pooling Treatment Files?</b> 
-<br> 
-No
-<br> 
-<b>ChIP-Seq Treatment File</b> 
-<br> 
-<i>select at runtime</i> 
-<br> 
-<b>Do you have a Control File?</b> 
-<br> 
-No
-<br> 
-<b>Format of Input Files</b> 
-<br> 
-BAM 
-<br> 
-<b>Effective genome size</b> 
-<br> 
-H. sapiens (2.7e9)
-<br> 
-<b>Build Model</b> 
-<br> 
-Build the shifting model
-<br> 
-<b>Set lower mfold bound</b> 
-<br> 
-5
-<br> 
-<b>Set upper mfold bound</b> 
-<br> 
-50
-<br> 
-<b>Band width for picking regions to compute fragment size</b> 
-<br> 
-300
-<br> 
-<b>Peak detection based on</b> 
-<br> 
-q-value
-<br> 
-<b>Minimum FDR (q-value) cutoff for peak detection</b> 
-<br> 
-0.05
-<br> 
-<b>Additional Outputs</b> 
-<br> 
-Peaks as tabular file (compatible wih MultiQC)
-<br> 
-<b>Advanced Options:</b>
-<br>
-<b>&emsp;When set, scale the small sample up to the bigger sample</b>
-<br>
-&emsp;False
-<br>
-<b>&emsp;Use fixed background lambda as local lambda for every peak region</b>
-<br>
-&emsp;False
-<br>
-<b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
-<br>
-&emsp;False
-<br>
-<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b>
-<br>
-&emsp;1.0
-<br>
-<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b>
-<br>
-&emsp;1000
-<br>
-<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b>
-<br>
-&emsp;10000
-<br>
-<b>&emsp;Composite broad regions</b>
-<br>
-&emsp;No broad regions
-<br>
-<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b>
-<br>
-&emsp;False
-<br>
-<b>&emsp;How many duplicate tags at the exact same location are allowed?</b>
-<br>
-&emsp;1
-<br>
-<br>
-<h2>Step 11: multiBigwigSummary</h2>
-<b>Sample order matters</b>
-<br>
-No
-<br>
-<b>Bigwig files</b>
-<br>
-Output dataset 'outFileName' from step 9
-<br>
-<b>Choose computation mode</b>
-<br>
-Bins
-<br>
-<b>Bin size in bp</b>
-<br>
-10000
-<br>
-<b>Distance between bins</b>
-<br>
-0
-<br>
-<b>Region of the genome to limit the operation to</b>
-<br>
-Empty.
-<br>
-<b>Save raw counts (scores) to file</b>
-<br>
-True
-<br>
-<b>Show advanced options</b>
-<br>
-no
-<br>
-<br>
-<h2>Step 12: Intersect intervals</h2>
-<b>File A to intersect with B</b>
-<br>
-Output dataset 'output_narrowpeaks' from step 10
-<br>
-<b>Combined or separate output files</b>
-<br>
-One output file per 'input B' file
-<br>
-<b>File(s) B to intersect with A</b>
-<br>
-<i>select at runtime</i>
-<br>
-<b>Calculation based on strandedness?</b>
-<br>
-Overlaps on either strand
-<br>
-<b>What should be written to the output file?</b>
-<br>
-Write the original entry in A for each overlap (-wa)
-<br>
-<b>Treat split/spliced BAM or BED12 entries as distinct BED intervals when computing coverage.</b>
-<br>
-False
-<br>
-<b>Minimum overlap required as a fraction of the BAM alignment</b>
-<br>
-Empty.
-<br>
-<b>Require that the fraction of overlap be reciprocal for A and B</b>
-<br>
-False
-<br>
-<b>Report only those alignments that **do not** overlap with file(s) B</b>
-<br>
-True
-<br>
-<b>Write the original A entry _once_ if _any_ overlaps found in B.</b>
-<br>
-False
-<br>
-<b>For each entry in A, report the number of overlaps with B.</b>
-<br>
-False
-<br>
-<b>Print the header from the A file prior to results</b>
-<br>
-False
-<br>
-<br>
-<h2>Step 13: plotPCA</h2> 
-<b>Matrix file from the multiBamSummary or multiBigwigSummary tools</b>
-<br> 
-Output dataset 'outFile' from step 11
-<br> 
-<b>Image file format</b> 
-<br> 
-pdf
-<br> 
-<b>Title of the plot</b> 
-<br> 
-Empty. 
-<br> 
-<b>Save the matrix of PCA and eigenvalues underlying the plot.</b> 
-<br> 
-False 
-<br> 
-<b>Show advanced options</b> 
-<br> 
-no
-<br> 
-<h2>Step 14: plotCorrelation</h2> 
-<b>Matrix file from the multiBamSummary tool</b> 
-<br> 
-Output dataset 'outFile' from step 11
-<br> 
-<b>Correlation method</b> 
-<br> 
-Spearman 
-<br> 
-<b>Plotting type</b> 
-<br> 
-Heatmap
-<br> 
-<b>Minimum value for the heatmap intensities</b> 
 <br> 
-Empty. 
+<b>Specify strand information</b> 
 <br> 
-<b>Maximum value for the heatmap intensities</b> 
+Unstranded
 <br> 
-Empty. 
+<b>Paired-end options</b> 
 <br> 
-<b>Color map to use for the heatmap</b> 
+Use default values
 <br> 
-RdYlBu
+<b>Summary Options:</b> 
 <br> 
-<b>Title of the plot</b> 
+<b>&emsp;Output alignment summary in a more machine-friendly style.</b> 
 <br> 
-Empty. 
+&emsp;False 
 <br> 
-<b>Plot the correlation value</b> 
+<b>&emsp;Print alignment summary to a file.</b> 
 <br> 
-True
+&emsp;False 
 <br> 
-<b>Plot height</b> 
+<b>Advanced Options:</b> 
+<br>  
+<b>&emsp;Input options</b> 
 <br> 
-9.5 
+&emsp;Use default values
 <br> 
-<b>Plot width</b> 
+<b>&emsp;Alignment options</b> 
 <br> 
-11.0 
-<br> 
-<b>Skip zeroes</b> 
-<br> 
-False 
-<br> 
-<b>Image file format</b> 
-<br> 
-pdf
-<br> 
-<b>Remove regions with very large counts</b> 
-<br> 
-True
-<br> 
-<b>Save the matrix of values underlying the heatmap</b> 
-<br> 
-False 
-<br> 
-<br> 
-<h2>Step 15: BED-to-bigBed</h2> 
-<b>Convert</b> 
-<br> 
-Output dataset 'output' from step 12
-<br> 
-<b>Converter settings to use</b> 
-<br> 
-Full parameter list
-<br> 
-<b>Items to bundle in r-tree</b> 
-<br> 
-256
-<br> 
-<b>Data points bundled at lowest level</b> 
-<br> 
-512
-<br> 
-<b>Do not use compression</b> 
-<br> 
-False 
-<br> 
-<br> 
-<h2>Step 16: computeMatrix</h2> 
-<b>Select regions</b> 
-<br>
-<b>&emsp;Select regions 1</b> 
-<br>
-<b>&emsp;Regions to plot</b> 
-<br>
-&emsp;Output dataset 'output' from step 12
-<br> 
-<b>Sample order matters</b> 
-<br> 
-Yes 
-<br> 
-<b>Score files</b> 
-<br>
-<b>&emsp;Score files 1</b> 
-<br>
-<b>&emsp;Score file</b> 
-<br>
-&emsp;Output dataset 'outFileName' from step 9
-<br> 
-<b>computeMatrix has two main output options</b> 
-<br> 
-reference-point
-<br> 
-<b>The reference point for the plotting</b> 
-<br> 
-center of region
-<br> 
-<b>Discard any values after the region end</b> 
-<br> 
-False 
+&emsp;Use default values
 <br>
-<b>Distance upstream of the start site of the regions defined in the region file</b> 
-<br> 
-1000 
-<br> 
-<b>Distance downstream of the end site of the given regions</b> 
-<br> 
-1000 
-<br> 
-<b>Show advanced output settings</b> 
-<br> 
-no 
-<br> 
-<b>Show advanced options</b> 
-<br> 
-yes
-<br> 
-<b>Length, in bases, of non-overlapping bins used for averaging the score over the regions length</b> 
-<br> 
-50 
-<br> 
-<b>Sort regions</b> 
-<br> 
-maintain the same ordering as the input files
-<br> 
-<b>Method used for sorting</b> 
-<br> 
-mean 
-<br> 
-<b>Define the type of statistic that should be displayed.</b> 
-<br> 
-mean 
-<br> 
-<b>Convert missing values to 0?</b> 
-<br> 
-False 
-<br> 
-<b>Skip zeros</b> 
-<br> 
-False 
-<br> 
-<b>Minimum threshold</b> 
-<br> 
-Not available.
-<br> 
-<b>Maximum threshold</b> 
-<br> 
-Not available.
-<br> 
-<b>Scaling factor</b> 
-<br> 
-Not available.
-<br> 
-<b>Labels for the samples (each bigwig)</b> 
-<br> 
-Empty. 
-<br> 
-<b>Use a metagene model</b> 
-<br> 
-False 
-<br> 
-<b>trascript designator</b> 
-<br> 
-transcript
-<br> 
-<b>exon designator</b> 
-<br> 
-exon
-<br> 
-<b>transcriptID key designator</b> 
+<b>&emsp;Scoring options</b> 
 <br> 
-transcript_id
+&emsp;Use default values
 <br> 
-<b>Blacklisted regions in BED/GTF format</b> 
+<b>&emsp;Spliced alignment options</b> 
 <br> 
-<i>select at runtime</i> 
+&emsp;Use default values
 <br> 
+<b>&emsp;Reporting options</b> 
 <br> 
-<h2>Step 17: plotHeatmap</h2> 
-<b>Matrix file from the computeMatrix tool</b> 
+&emsp;Use default values
 <br> 
-Output dataset 'outFileName' from step 16
+<b>&emsp;Output options</b> 
 <br> 
-<b>Show advanced output settings</b> 
+&emsp;Use default values
 <br> 
-no 
+<b>&emsp;Other options</b> 
 <br> 
-<b>Show advanced options</b> 
+&emsp;Use default values
 <br> 
-no 
 </details>
 
 #### Step 2. Statistical Analysis of gene expression
@@ -732,652 +199,139 @@ no
 This step uses DESeq2 standard workflow to test differential expression across two groups, e.g. control vs. ALS.
 
 <details>
-<summary>Galaxy Workflow | imported: fraenkel_ATAC_batch_experimental (for in house usage)</summary>
+<summary>Galaxy Workflow '(2 -> 3) - RNAseq_batch'</summary>
 <br>
-<h2>Step 1: Input dataset collection</h2>
-<b>Input FASTQs</b>
+<h2>Step 1: Input dataset collection</h2> 
+<b>input</b>
 <br> 
-<i>select at runtime</i>
-<br>
-<br>
-<h2>Step 2: Input dataset</h2>
-<b>Naked DNA File</b>
+<i>select at runtime</i> 
+<br> 
+<br> 
+<h2>Step 2: Input dataset</h2> 
+<b>GTF/GFF file</b> 
 <br> 
 <i>select at runtime</i> 
 <br>
 <br> 
-<h2>Step 3: Input dataset</h2> 
-<b>encode blacklist regions</b>
-<br>
-<i>select at runtime</i>
-<br>
-<br> 
-<h2>Step 4: Trimmomatic</h2>
-<b>Single-end or paired-end reads?</b>
-<br>
-Single-end
-<br>
-<b>Input FASTQ file</b>
+<h2>Step 3: featureCounts</h2> 
+<b>Alignment file</b> 
 <br>
 Output dataset 'output' from step 1
-<br>
-<b>Perform initial ILLUMINACLIP step?</b> 
-<br>
+<br> 
+<b>Gene annotation file</b> 
+<br> 
+in your history 
+<br> 
+<b>Gene annotation file</b> 
+<br> 
+Output dataset 'output' from step 2
+<br> 
+<b>Output format</b> 
+<br> 
+Gene-ID "\t" read-count (DESeq2 IUC wrapper compatible)
+<br> 
+<b>Create gene-length file</b> 
+<br> 
+False 
+<br> 
+<b>Options for paired-end reads:</b> 
+<br> 
+<b>Count fragments instead of reads</b> 
+<br> 
+Disabled; all reads/mates will be counted individually
+<br> 
+<b>Only allow fragments with both reads aligned</b> 
+<br> 
 False
-<br>
-<b>Trimmomatic Operations</b>
-<br>
-<b>&emsp;Trimmomatic Operation 1</b>
-<br>
-<b>&emsp;Select Trimmomatic operation to perform</b>
-<br>
-&emsp;Cut bases off the start of a read, if below a threshold quality (LEADING)
-<br>
-<b>&emsp;Minimum quality required to keep a base</b>
-<br>
-&emsp;15
-<br>
-<b>&emsp;Trimmomatic Operation 2</b>
-<br>
-<b>&emsp;Select Trimmomatic operation to perform</b>
-<br>
-&emsp;Cut bases off the end of a read, if below a threshold quality (TRAILING)
-<br>
-&emsp;<b>Minimum quality required to keep a base</b>
-<br>
-&emsp;15
-<br>
-<br>
-<h2>Step 5: Bowtie2</h2> 
-<b>Is this single or paired library</b> 
 <br> 
-Single-end 
-<br> 
-<b>FASTA/Q file</b> 
-<br> 
-Output dataset 'fastq_out' from step 4
-<br> 
-<b>Write unaligned reads (in fastq format) to separate file(s)</b> 
-<br> 
-False 
-<br> 
-<b>Write aligned reads (in fastq format) to separate file(s)</b> 
-<br> 
-False 
-<br> 
-<b>Will you select a reference genome from your history or use a built-in index?</b> 
-<br> 
-Use a built-in genome index
-<br> 
-<b>Select reference genome</b> 
-<br> 
-hg19
-<br> 
-<b>Set read groups information?</b> 
-<br> 
-Do not set 
-<br> 
-<b>Select analysis mode</b> 
-<br> 
-1: Default setting only
-<br> 
-<b>Do you want to use presets?</b> 
-<br> 
-No, just use defaults
-<br> 
-<b>Save the bowtie2 mapping statistics to the history</b> 
+<b>Exclude chimeric fragments</b>
 <br> 
 True 
 <br> 
+<b>Advanced options:</b> 
 <br> 
-<h2>Step 6: BAM filter</h2> 
-<b>Select BAM dataset</b> 
-<br> 
-Output dataset 'output' from step 5
-<br> 
-<b>Remove reads that are smaller than</b> 
-<br> 
-Not available.
-<br> 
-<b>Remove reads that are larger than</b> 
-<br> 
-Not available.
-<br> 
-<b>Keep only mapped reads</b> 
-<br> 
-True 
-<br> 
-<b>Keep only unmapped reads</b> 
-<br> 
-False 
-<br> 
-<b>Keep only properly paired reads</b> 
-<br> 
-False 
-<br> 
-<b>Discard properly paired reads</b> 
-<br> 
-False 
-<br> 
-<b>Remove reads that match the mask</b> 
-<br> 
-Empty. 
-<br> 
-<b>Remove reads that have the same sequence</b> 
-<br>  
--1 
-<br> 
-<b>Remove reads that start at the same position</b> 
-<br> 
-False 
-<br> 
-<b>Remove reads with that many mismatches</b> 
-<br> 
-Not available. 
-<br> 
-<b>Remove secondary alignment reads</b> 
-<br> 
-True 
-<br> 
-<b>Remove reads that do not pass the quality control</b> 
-<br> 
-False 
-<br> 
-<b>Remove reads that are marked as PCR dupicates</b> 
-<br> 
-False 
-<br> 
-<b>Remove reads that are in any of the regions</b> 
-<br> 
-<i>select at runtime</i> 
-<br> 
-<b>Remove reads that are NOT any of the regions</b> 
-<br> 
-<i>select at runtime</i> 
-<br> 
-<b>Strand information from BED file is ignored</b> 
-<br> 
-False 
-<br> 
-<b>Exclude reads NOT mapped to a reference</b> 
-<br> 
-Empty. 
-<br> 
-<b>Exclude reads mapped to a particular reference</b> 
-<br> 
-chrM
-<br> 
-<b>Filter by maximum mismatch ratio</b> 
-<br> 
-Not available.
-<br> 
-<br> 
-<h2>Step 7: Sort</h2> 
-<b>BAM File</b> 
-<br> 
-Output dataset 'outfile' from step 6
-<br> 
-<b>Sort by</b> 
-<br> 
-Chromosomal coordinates
-<br> 
-<br> 
-<h2>Step 8: MarkDuplicates</h2> 
-<b>Select SAM/BAM dataset or dataset collection</b> 
-<br> 
-Output dataset 'output1' from step 7
-<br> 
-<b>Comments</b> 
-<br> 
-<b>If true do not write duplicates to the output file instead of writing them with appropriate flags set</b> 
-<br> 
-True 
-<br> 
-<b>Assume the input file is already sorted</b> 
-<br> 
-True 
-<br> 
-<b>The scoring strategy for choosing the non-duplicate among candidates</b> 
-<br> 
-SUM_OF_BASE_QUALITIES
-<br> 
-<b>Regular expression that can be used in unusual situations to parse non-standard read names in the incoming SAM/BAM dataset</b> 
-<br> 
-[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).*.
-<br> 
-<b>The maximum offset between two duplicte clusters in order to consider them optical duplicates</b> 
-<br> 
-100 
-<br> 
-<b>Barcode Tag</b> 
-<br> 
-Empty. 
-<br> 
-<b>Select validation stringency</b> 
-<br> 
-Lenient
-<br> 
-<br> 
-<h2>Step 9: bamCoverage</h2> 
-<b>BAM/CRAM file</b> 
-<br> 
-Output dataset 'outFile' from step 8
-<br> 
-<b>Bin size in bases</b> 
-<br> 
-50 
-<br> 
-<b>Scaling/Normalization method</b> 
-<br> 
-Normalize to reads per kilobase per million (RPKM)
-<br> 
-<b>Coverage file format</b> 
-<br> 
-bigwig
-<br> 
-<b>Region of the genome to limit the operation to</b> 
-<br> 
-Empty.
-<br> 
-<b>Show advanced options</b> 
-<br> 
-no 
-<br> 
-<br> 
-<h2>Step 10: MACS2 callpeak</h2> 
-<b>Are you pooling Treatment Files?</b> 
-<br> 
-No 
-<br> 
-<b>ChIP-Seq Treatment File</b> 
-<br> 
-<i>select at runtime</i> 
-<br> 
-<b>Do you have a Control File?</b> 
-<br> 
-No 
-<br> 
-<b>Format of Input Files</b> 
-<br> 
-Single-end BAM
-<br> 
-<b>Effective genome size</b> 
-<br> 
-H. sapiens (2.7e9)
-<br> 
-<b>Build Model</b> 
-<br> 
-Do not build the shifting model (--nomodel)
-<br> 
-<b>Set extension size</b> 
-<br> 
-200 
-<br> 
-<b>Set shift size</b> 
-<br> 
--100 
-<br> 
-<b>Peak detection based on</b> 
-<br> 
-q-value
-<br> 
-<b>Minimum FDR (q-value) cutoff for peak detection</b> 
-<br> 
-0.01
-<br> 
-<b>Additional Outputs</b> 
-<br> 
-Peaks as tabular file (compatible wih MultiQC) Peak summits Scores in bedGraph files (--bdg) Summary page (html) Plot in PDF (only available if a model is created and if BAMPE is not used)
-<br> 
-<b>Advanced Options:</b> 
-<br> 
-<b>&emsp;When set, scale the small sample up to the bigger sample</b> 
-<br>
-&emsp;False 
-<br>
-<b>&emsp;Use fixed background lambda as local lambda for every peak region</b> 
-<br>
-&emsp;False 
-<br>
-<b>&emsp;Save signal per million reads for fragment pileup profiles</b> 
-<br>
-&emsp;False 
-<br>
-<b>&emsp;When set, use a custom scaling ratio of ChIP/control (e.g. calculated using NCIS) for linear scaling</b> 
-<br>
-&emsp;1.0 
-<br>
-<b>&emsp;The small nearby region in basepairs to calculate dynamic lambda</b> 
-<br>
-&emsp;1000 
-<br>
-<b>&emsp;The large nearby region in basepairs to calculate dynamic lambda</b> 
-<br>
-&emsp;10000 
-<br>
-<b>&emsp;Composite broad regions</b> 
-<br>
-&emsp;No broad regions
-<br>
-<b>&emsp;Use a more sophisticated signal processing approach to find subpeak summits in each enriched peak region</b> 
-<br>
-&emsp;True 
-<br>
-<b>&emsp;How many duplicate tags at the exact same location are allowed?</b> 
-<br>
-&emsp;1
-<br> 
-<br> 
-<h2>Step 11: multiBigwigSummary</h2> 
-<b>Sample order matters</b> 
-<br> 
-No 
-<br> 
-<b>Bigwig files</b> 
-<br> 
-Output dataset 'outFileName' from step 9
-<br> 
-<b>Choose computation mode</b> 
-<br> 
-Bins
-<br> 
-<b>Bin size in bp</b> 
-<br> 
-10000
-<br> 
-<b>Distance between bins</b> 
-<br> 
-0 
-<br> 
-<b>Region of the genome to limit the operation to</b> 
-<br> 
-Empty. 
-<br> 
-<b>Save raw counts (scores) to file</b> 
-<br> 
-True 
-<br> 
-<b>Show advanced options</b> 
-<br> 
-no 
-<br> 
-<br> 
-<h2>Step 12: Intersect intervals</h2> 
-<b>File A to intersect with B</b> 
-<br> 
-Output dataset 'output_narrowpeaks' from step 10
-<br> 
-<b>Combined or separate output files</b> 
-<br> 
-One output file per 'input B' file
-<br> 
-<b>File(s) B to intersect with A</b> 
-<br> 
-<i>select at runtime</i> 
-<br> 
-<b>Calculation based on strandedness?</b> 
-<br> 
-Overlaps on either strand
-<br> 
-<b>What should be written to the output file?</b> 
-<br> 
-Write the original entry in A for each overlap (-wa)
-<br> 
-<b>Treat split/spliced BAM or BED12 entries as distinct BED intervals when computing coverage.</b> 
-<br> 
-False 
-<br> 
-<b>Minimum overlap required as a fraction of the BAM alignment</b> 
-<br> 
-Empty. 
-<br> 
-<b>Require that the fraction of overlap be reciprocal for A and B</b> 
-<br> 
-False 
-<br> 
-<b>Report only those alignments that **do not** overlap with file(s) B</b> 
-<br> 
-True 
-<br> 
-<b>Write the original A entry _once_ if _any_ overlaps found in B.</b> 
-<br> 
-False 
-<br> 
-<b>For each entry in A, report the number of overlaps with B.</b> 
-<br> 
-False 
-<br> 
-<b>Print the header from the A file prior to results</b> 
-<br> 
-False 
-<br> 
-<br> 
-<h2>Step 13: plotPCA</h2>
-<b>Matrix file from the multiBamSummary or multiBigwigSummary tools</b> 
-<br> 
-Output dataset 'outFile' from step 11
-<br> 
-<b>Image file format</b> 
-<br> 
-pdf
-<br> 
-<b>Title of the plot</b> 
-<br> 
-Empty. 
-<br> 
-<b>Save the matrix of PCA and eigenvalues underlying the plot.</b> 
-<br> 
-False 
-<br> 
-<b>Show advanced options</b> 
-<br> 
-no 
-<br> 
-<br> 
-<h2>Step 14: plotCorrelation</h2> 
-<b>Matrix file from the multiBamSummary tool</b> 
-<br> 
-Output dataset 'outFile' from step 11
-<br> 
-<b>Correlation method</b> 
-<br> 
-Spearman
-<br> 
-<b>Plotting type</b> 
-<br> 
-Heatmap
-<br> 
-<b>Minimum value for the heatmap intensities</b> 
-<br> 
-Empty. 
-<br> 
-<b>Maximum value for the heatmap intensities</b> 
-<br> 
-Empty. 
-<br> 
-<b>Color map to use for the heatmap</b> 
-<br> 
-RdYlBu
-<br> 
-<b>Title of the plot</b> 
-<br> 
-Empty.
-<br> 
-<b>Plot the correlation value</b> 
-<br> 
-True 
-<br> 
-<b>Plot height</b> 
-<br> 
-9.5
-<br> 
-<b>Plot width</b> 
-<br> 
-11.0 
-<br> 
-<b>Skip zeros</b> 
-<br> 
-False 
-<br> 
-<b>Image file format</b> 
-<br> 
-pdf 
-<br> 
-<b>Remove regions with very large counts</b> 
-<br> 
-True 
-<br> 
-<b>Save the matrix of values underlying the heatmap</b> 
-<br> 
-False 
-<br> 
-<br> 
-<h2>Step 15: BED-to-bigBed</h2> 
-<b>Convert</b> 
-<br> 
-Output dataset 'output' from step 12
-<br> 
-<b>Converter settings to use</b> 
-<br> 
-Full parameter list
-<br> 
-<b>Items to bundle in r-tree</b> 
-<br> 
-256
-<br> 
-<b>Data points bundled at lowest level</b> 
-<br> 
-512
-<br> 
-<b>Do not use compression</b> 
-<br> 
-False 
-<br> 
-<br> 
-<h2>Step 16: computeMatrix</h2> 
-<b>Select regions</b> 
-<br> 
-<b>&emsp;Select regions 1</b>
-<br>
-<b>&emsp;Regions to plot</b> 
-<br>
-&emsp;Output dataset 'output' from step 12
-<br> 
-<b>Sample order matters</b> 
-<br> 
-Yes 
-<br> 
-<b>Score files</b> 
-<br> 
-<b>&emsp;Score files 1</b> 
-<br>
-<b>&emsp;Score file</b> 
-<br>
-&emsp;Output dataset 'outFileName' from step 9
-<br> 
-<b>computeMatrix has two main output options</b> 
-<br> 
-reference-point
-<br> 
-<b>The reference point for the plotting</b> 
-<br> 
-center of region
-<br> 
-<b>Discard any values after the region end</b> 
-<br> 
-False 
-<br> 
-<b>Distance upstream of the start site of the regions defined in the region file</b> 
-<br> 
-1000 
-<br> 
-<b>Distance downstream of the end site of the given regions</b> 
-<br> 
-1000 
-<br> 
-<b>Show advanced output settings</b> 
-<br> 
-no 
-<br> 
-<b>Show advanced options</b> 
-<br> 
-yes 
-<br> 
-<b>Length, in bases, of non-overlapping bins used for averaging the score over the regions length</b> 
-<br> 
-50 
-<br> 
-<b>Sort regions</b> 
-<br> 
-maintain the same ordering as the input files
-<br> 
-<b>Method used for sorting</b> 
-<br> 
-mean
-<br> 
-<b>Define the type of statistic that should be displayed.</b> 
-<br> 
-mean
-<br> 
-<b>Convert missing values to 0?</b> 
-<br> 
-False 
-<br> 
-<b>Skip zeros</b> 
-<br> 
-False 
-<br> 
-<b>Minimum threshold</b> 
-<br> 
-Not available.
-<br> 
-<b>Maximum threshold</b> 
-<br> 
-Not available.
-<br> 
-<b>Scaling factor</b> 
-<br> 
-Not available.
-<br> 
-<b>Labels for the samples (each bigwig)</b> 
-<br> 
-Empty. 
-<br> 
-<b>Use a metagene model</b> 
-<br> 
-False 
-<br> 
-<b>trascript designator</b> 
-<br> 
-transcript
-<br> 
-<b>exon designator</b> 
+<b>GFF feature type filter</b> 
 <br> 
 exon
 <br> 
-<b>transcriptID key designator</b> 
+<b>GFF gene identifier</b> 
 <br> 
-transcript_id
+gene_name
 <br> 
-<b>Blacklisted regions in BED/GTF format</b> 
+<b>On feature level</b> 
 <br> 
-<i>select at runtime</i> 
+False 
 <br> 
+<b>Allow read to contribute to multiple features</b> 
 <br> 
-<h2>Step 17: plotHeatmap</h2>
-<b>Matrix file from the computeMatrix tool</b> 
+False 
 <br> 
-Output dataset 'outFileName' from step 16
+<b>Strand specificity of the protocol</b> 
 <br> 
-<b>Show advanced output settings</b> 
+Unstranded
 <br> 
-no 
+<b>Count multi-mapping reads/fragments</b> 
 <br> 
-<b>Show advanced options</b> 
+Disabled; multi-mapping reads are excluded (default)
 <br> 
-no 
-</details>
+<b>Minimum mapping quality per read</b> 
+<br> 
+12 
+<br> 
+<b>Exon-exon junctions</b> 
+<br> 
+False 
+<br> 
+<b>Long reads</b> 
+<br> 
+False 
+<br> 
+<b>Count reads by read group</b> 
+<br> 
+False 
+<br> 
+<b>Largest overlap</b> 
+<br> 
+False 
+<br> 
+<b>Minimum bases of overlap</b> 
+<br> 
+1
+<br> 
+<b>Minimum fraction (of read) overlapping a feature</b> 
+<br> 
+0 
+<br> 
+<b>Minimum fraction (of feature) overlapping a read</b> 
+<br> 
+0 
+<br> 
+<b>Read 5' extension</b> 
+<br> 
+0 
+<br> 
+<b>Read 3' extension</b> 
+<br> 
+0 
+<br> 
+<b>Reduce read to single position</b> 
 <br>
+Leave the read as it is
+<br> 
+<b>Only count primary alignments</b> 
+<br> 
+False 
+<br> 
+<b>Ignore reads marked as duplicate</b> 
+<br> 
+False 
+<br> 
+<b>Ignore unspliced alignments</b> 
+<br> 
+False 
+<br> 
+</details>
+
 For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html). 
 
 ## Web-based Pipeline For Assay for Transposase-Accessible Chromatin followed by sequencing (ATAC-Seq)
