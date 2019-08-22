@@ -236,102 +236,102 @@ False
 <br> 
 <b>Options for paired-end reads:</b> 
 <br> 
-<b>Count fragments instead of reads</b> 
+<b>&emsp;Count fragments instead of reads</b> 
 <br> 
-Disabled; all reads/mates will be counted individually
+&emsp;Disabled; all reads/mates will be counted individually
 <br> 
-<b>Only allow fragments with both reads aligned</b> 
+<b>&emsp;Only allow fragments with both reads aligned</b> 
 <br> 
-False
+&emsp;False
 <br> 
-<b>Exclude chimeric fragments</b>
+<b>&emsp;Exclude chimeric fragments</b>
 <br> 
-True 
+&emsp;True 
 <br> 
 <b>Advanced options:</b> 
 <br> 
-<b>GFF feature type filter</b> 
+<b>&emsp;GFF feature type filter</b> 
 <br> 
-exon
+&emsp;exon
 <br> 
-<b>GFF gene identifier</b> 
+<b>&emsp;GFF gene identifier</b> 
 <br> 
-gene_name
+&emsp;gene_name
 <br> 
-<b>On feature level</b> 
+<b>&emsp;On feature level</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Allow read to contribute to multiple features</b> 
+<b>&emsp;Allow read to contribute to multiple features</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Strand specificity of the protocol</b> 
+<b>&emsp;Strand specificity of the protocol</b> 
 <br> 
-Unstranded
+&emsp;Unstranded
 <br> 
-<b>Count multi-mapping reads/fragments</b> 
+<b>&emsp;Count multi-mapping reads/fragments</b> 
 <br> 
-Disabled; multi-mapping reads are excluded (default)
+&emsp;Disabled; multi-mapping reads are excluded (default)
 <br> 
-<b>Minimum mapping quality per read</b> 
+<b>&emsp;Minimum mapping quality per read</b> 
 <br> 
-12 
+&emsp;12 
 <br> 
-<b>Exon-exon junctions</b> 
+<b>&emsp;Exon-exon junctions</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Long reads</b> 
+<b>&emsp;Long reads</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Count reads by read group</b> 
+<b>&emsp;Count reads by read group</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Largest overlap</b> 
+<b>&emsp;Largest overlap</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Minimum bases of overlap</b> 
+<b>&emsp;Minimum bases of overlap</b> 
 <br> 
-1
+&emsp;1
 <br> 
-<b>Minimum fraction (of read) overlapping a feature</b> 
+<b>&emsp;Minimum fraction (of read) overlapping a feature</b> 
 <br> 
-0 
+&emsp;0 
 <br> 
-<b>Minimum fraction (of feature) overlapping a read</b> 
+<b>&emsp;Minimum fraction (of feature) overlapping a read</b> 
 <br> 
-0 
+&emsp;0 
 <br> 
-<b>Read 5' extension</b> 
+<b>&emsp;Read 5' extension</b> 
 <br> 
-0 
+&emsp;0 
 <br> 
-<b>Read 3' extension</b> 
+<b>&emsp;Read 3' extension</b> 
 <br> 
-0 
+&emsp;0 
 <br> 
-<b>Reduce read to single position</b> 
+<b>&emsp;Reduce read to single position</b> 
 <br>
-Leave the read as it is
+&emsp;Leave the read as it is
 <br> 
-<b>Only count primary alignments</b> 
+<b>&emsp;Only count primary alignments</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Ignore reads marked as duplicate</b> 
+<b>&emsp;Ignore reads marked as duplicate</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
-<b>Ignore unspliced alignments</b> 
+<b>&emsp;Ignore unspliced alignments</b> 
 <br> 
-False 
+&emsp;False 
 <br> 
 </details>
-
+<br> 
 For more information regarding DESeq2, please visit this [page](https://bioconductor.org/packages/release/bioc/html/DESeq2.html). 
 
 ## Web-based Pipeline For Assay for Transposase-Accessible Chromatin followed by sequencing (ATAC-Seq)
