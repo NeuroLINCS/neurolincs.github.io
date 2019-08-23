@@ -23,7 +23,7 @@ Here are some information and videos that will help you get started using Galaxy
 ### NeuroLINCS Data Links
 
 | - | - | 
-| [NeuroLINCS Website](http://neurolincs.org/) | NeuroLINCS website contains information on the project, including technologies, data, and tools developed and used by the team | 
+| [NeuroLINCS Home Page](http://neurolincs.org/) | NeuroLINCS website contains information on the project, including technologies, data, and tools developed and used by the team | 
 | [NeuroLINCS Data Summary](http://neurolincs.org/data/) | Data page on NeuroLINCS website showing summary of experiments and links to data | 
 | [NeuroLINCS Raw Data](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001231.v2.p1) | The NCBI data base of Genotypes and Phenotypes study that hosts the NeuroLINCS raw data files for ATAC-Seq, RNA-Seq and whole genome sequences | 
 | [NeuroLINCS Raw Protein Data](https://chorusproject.org/pages/authentication.html#/login) | Chorus Project site that hosts the raw data files for SWATH proteomic assay. Note, you need to sign into Chorus in order to access the files | 
@@ -43,7 +43,7 @@ Here are some information and videos that will help you get started using Galaxy
 #### RNA-Seq Workflow 
 
 1. Use RNA-Seq Step 1 'Secondary Analysis' workflow below to generate the count matrix (level 3 data) for all samples using raw fastq files.
-2. If technical or growth replicates are present, use the [Rcode](https://github.com/NeuroLINCS/Rscripts) to generate the differentially expressed genes (level 4 data). If not, use the RNA-Seq Step 2 'Statistical Analysis of Gene Expression' workflow below to generate the differentially expressed gene list. 
+2. If technical or growth replicates are present, use the [Rcode](https://github.com/NeuroLINCS/Rscripts/blob/master/RNA_DEseq2.md) to generate the differentially expressed genes (level 4 data). If not, use the RNA-Seq Step 2 'Statistical Analysis of Gene Expression' workflow below to generate the differentially expressed gene list. 
 
 #### ATAC-Seq Workflow
 
@@ -63,8 +63,6 @@ The workflows described below are used for primary analysis of NeuroLINCS cell l
 *NeuroLINCs Transcriptomics Center, UC Irvine*
 
 The workflows describes a standard analysis of bulk RNA-seq analysis. For a schematic of the pipeline, click [here](http://neurolincs.org/pdf/LINCS-RNAseq-Data-Pipeline.pdf). 
-
-For more information on NeuroLINCS, click [here](http://neurolincs.org/). 
 
 #### Step 1. Secondary Analysis
 
