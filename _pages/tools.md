@@ -3,13 +3,13 @@ title: "Tools"
 layout: splash
 permalink: /tools/
 
-AChroMap:
-  - image_path: tools/achromap.jpg
-    alt: "achromap"
-    title: "AChroMap"
-    excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNase-seq) for a given set of differentially expressed genes."
-    links:
-      - "[Use AchroMAP](http://achromap.neurolincs.org/)"
+# AChroMap:
+#   - image_path: tools/achromap.jpg
+#     alt: "achromap"
+#     title: "AChroMap"
+#     excerpt: "AChroMap is a data integration tool for transcriptomic and epigenomic data. It generates a list of enriched motifs in open chromatin regions (as assayed by ATAC-seq or DNase-seq) for a given set of differentially expressed genes."
+#     links:
+#       - "[Use AchroMAP](http://achromap.neurolincs.org/)"
 
 Omics:
   - image_path: tools/omics_integrator.png
@@ -41,7 +41,7 @@ Galaxy:
       - "[The NeuroLINCS-Galaxy Docker Image](https://github.com/fraenkel-lab/galaxy-neurolincs). If you intend to reproduce or conduct similar analyses at scale, comes pre-configured with the tools we use as part of our workflows."
 ---
 
-{% include feature_row id="AChroMap" type="left" %}
+<!-- {% include feature_row id="AChroMap" type="left" %} -->
 
 {% include feature_row id="Omics" type="left" %}
 
