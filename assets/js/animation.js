@@ -107,7 +107,7 @@ $(document).ready(function() {
   var DataReleases = new Chart($("#releases"), {
     type: "bar",
     data: {
-      labels: ["9/16/2016", "Spring 2017", "Fall 2017"],
+      labels: ["Release 1", "Release 2", "Release 3"],
       datasets: [
         {data: [10, 20, 38], label: "Transcriptomic",
         backgroundColor: ['rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)'],
